@@ -1,0 +1,1946 @@
+2014/06/24 12:52:48 [error] [exception.CException] exception 'CException' with message 'slavaController cannot find the requested view "This is the action controller".' in D:\Slava\Installation\wamp\www\yii\framework\web\CController.php:878
+Stack trace:
+#0 D:\Slava\Installation\wamp\www\yii\framework\web\CController.php(782): CController->renderPartial('This is the act...', NULL, true)
+#1 D:\Slava\Installation\wamp\www\yii\protected\controllers\SlavaController.php(8): CController->render('This is the act...')
+#2 [internal function]: slavaController->actionIndex('Nothing')
+#3 D:\Slava\Installation\wamp\www\yii\framework\web\actions\CAction.php(108): ReflectionMethod->invokeArgs(Object(slavaController), Array)
+#4 D:\Slava\Installation\wamp\www\yii\framework\web\actions\CInlineAction.php(47): CAction->runWithParamsInternal(Object(slavaController), Object(ReflectionMethod), Array)
+#5 D:\Slava\Installation\wamp\www\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#6 D:\Slava\Installation\wamp\www\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#7 D:\Slava\Installation\wamp\www\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 D:\Slava\Installation\wamp\www\yii\framework\web\CWebApplication.php(282): CController->run('')
+#9 D:\Slava\Installation\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('slava')
+#10 D:\Slava\Installation\wamp\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#11 D:\Slava\Installation\wamp\www\yii\index.php(13): CApplication->run()
+#12 {main}
+REQUEST_URI=/yii/index.php?r=slava
+---
+2014/06/24 12:54:35 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "string".' in D:\Slava\Installation\wamp\www\yii\framework\web\CController.php:483
+Stack trace:
+#0 D:\Slava\Installation\wamp\www\yii\framework\web\CController.php(270): CController->missingAction('string')
+#1 D:\Slava\Installation\wamp\www\yii\framework\web\CWebApplication.php(282): CController->run('string')
+#2 D:\Slava\Installation\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('slava/string')
+#3 D:\Slava\Installation\wamp\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 D:\Slava\Installation\wamp\www\yii\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/yii/index.php?r=slava/string
+---
+2014/07/06 14:07:33 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "sl".' in D:\Slava\Installation\wamp\www\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\Slava\Installation\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('sl')
+#1 D:\Slava\Installation\wamp\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 D:\Slava\Installation\wamp\www\yii\index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/yii/index.php?r=sl
+---
+2014/07/17 12:52:47 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "slavacmap".' in D:\Slava\Installation\wamp\www\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\Slava\Installation\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('slavacmap')
+#1 D:\Slava\Installation\wamp\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 D:\Slava\Installation\wamp\www\yii\index.php(37): CApplication->run()
+#3 {main}
+REQUEST_URI=/yii/index.php?r=slavacmap
+---
+2014/07/17 12:53:09 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "slavacmap".' in D:\Slava\Installation\wamp\www\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\Slava\Installation\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('slavacmap')
+#1 D:\Slava\Installation\wamp\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 D:\Slava\Installation\wamp\www\yii\index.php(37): CApplication->run()
+#3 {main}
+REQUEST_URI=/yii/index.php?r=slavacmap
+---
+2014/07/17 12:53:11 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "slavacmap".' in D:\Slava\Installation\wamp\www\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\Slava\Installation\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('slavacmap')
+#1 D:\Slava\Installation\wamp\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 D:\Slava\Installation\wamp\www\yii\index.php(37): CApplication->run()
+#3 {main}
+REQUEST_URI=/yii/index.php?r=slavacmap
+---
+2014/07/17 12:53:52 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "slavacmap".' in D:\Slava\Installation\wamp\www\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\Slava\Installation\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('slavacmap')
+#1 D:\Slava\Installation\wamp\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 D:\Slava\Installation\wamp\www\yii\index.php(37): CApplication->run()
+#3 {main}
+REQUEST_URI=/yii/index.php?r=slavacmap
+---
+2014/07/17 12:54:30 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "slavacmap".' in D:\Slava\Installation\wamp\www\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\Slava\Installation\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('slavacmap')
+#1 D:\Slava\Installation\wamp\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 D:\Slava\Installation\wamp\www\yii\index.php(37): CApplication->run()
+#3 {main}
+REQUEST_URI=/yii/index.php?r=slavacmap
+---
+2014/07/17 12:54:52 [error] [exception.CException] exception 'CException' with message 'Property "slavaController.pageTile" is not defined.' in D:\Slava\Installation\wamp\www\yii\framework\base\CComponent.php:173
+Stack trace:
+#0 D:\Slava\Installation\wamp\www\yii\framework\YiiBase.php(220): CComponent->__set('pageTile', '')
+#1 D:\Slava\Installation\wamp\www\yii\framework\web\CWebApplication.php(332): YiiBase::createComponent(Array, 'slavacmap', NULL)
+#2 D:\Slava\Installation\wamp\www\yii\framework\web\CWebApplication.php(276): CWebApplication->createController('slavacmap')
+#3 D:\Slava\Installation\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('slavacmap')
+#4 D:\Slava\Installation\wamp\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#5 D:\Slava\Installation\wamp\www\yii\index.php(37): CApplication->run()
+#6 {main}
+REQUEST_URI=/yii/index.php?r=slavacmap
+---
+2014/07/17 12:57:03 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "sdf".' in D:\Slava\Installation\wamp\www\yii\framework\web\CController.php:483
+Stack trace:
+#0 D:\Slava\Installation\wamp\www\yii\framework\web\CController.php(270): CController->missingAction('sdf')
+#1 D:\Slava\Installation\wamp\www\yii\framework\web\CWebApplication.php(282): CController->run('sdf')
+#2 D:\Slava\Installation\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('slavacmap/sdf')
+#3 D:\Slava\Installation\wamp\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 D:\Slava\Installation\wamp\www\yii\index.php(37): CApplication->run()
+#5 {main}
+REQUEST_URI=/yii/index.php?r=slavacmap/sdf
+---
+2014/07/17 13:06:47 [error] [exception.CException] exception 'CException' with message 'Property "CUrlManager.basePath" is not defined.' in D:\Slava\Installation\wamp\www\yii\framework\base\CComponent.php:130
+Stack trace:
+#0 xdebug://debug-eval(1): CComponent->__get('basePath')
+#1 D:\Slava\Installation\wamp\www\yii\index.php(37): unknown()
+#2 {main}
+REQUEST_URI=/yii/index.php?r=slavacmap/
+---
+2014/07/20 10:35:00 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "classaction".' in D:\Slava\Installation\wamp\www\yii\framework\web\CController.php:483
+Stack trace:
+#0 D:\Slava\Installation\wamp\www\yii\framework\web\CController.php(270): CController->missingAction('classaction')
+#1 D:\Slava\Installation\wamp\www\yii\framework\web\CWebApplication.php(282): CController->run('classaction')
+#2 D:\Slava\Installation\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('slava/classacti...')
+#3 D:\Slava\Installation\wamp\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 D:\Slava\Installation\wamp\www\yii\index.php(40): CApplication->run()
+#5 {main}
+REQUEST_URI=/yii/index.php?r=slava/classaction
+---
+2014/07/20 12:22:19 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "classAction".' in D:\Slava\Installation\wamp\www\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\Slava\Installation\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('classAction')
+#1 D:\Slava\Installation\wamp\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 D:\Slava\Installation\wamp\www\yii\index.php(40): CApplication->run()
+#3 {main}
+REQUEST_URI=/yii/index.php?r=classAction
+---
+2014/07/20 12:22:42 [error] [exception.CException] exception 'CException' with message 'Filter "filterTry" is invalid. Controller "slavaController" does not have the filter method "filterfilterTry".' in D:\Slava\Installation\wamp\www\yii\framework\web\filters\CInlineFilter.php:46
+Stack trace:
+#0 D:\Slava\Installation\wamp\www\yii\framework\web\filters\CFilterChain.php(69): CInlineFilter::create(Object(slavaController), 'filterTry')
+#1 D:\Slava\Installation\wamp\www\yii\framework\web\CController.php(291): CFilterChain::create(Object(slavaController), Object(classAction), Array)
+#2 D:\Slava\Installation\wamp\www\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(classAction), Array)
+#3 D:\Slava\Installation\wamp\www\yii\framework\web\CWebApplication.php(282): CController->run('classAction')
+#4 D:\Slava\Installation\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('slava/classActi...')
+#5 D:\Slava\Installation\wamp\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#6 D:\Slava\Installation\wamp\www\yii\index.php(40): CApplication->run()
+#7 {main}
+REQUEST_URI=/yii/index.php?r=slava/classAction
+---
+2014/07/20 12:32:21 [error] [exception.CException] exception 'CException' with message 'Filter "filters.claaaFilter" is invalid. Controller "slavaController" does not have the filter method "filterfilters.claaaFilter".' in D:\Slava\Installation\wamp\www\yii\framework\web\filters\CInlineFilter.php:46
+Stack trace:
+#0 D:\Slava\Installation\wamp\www\yii\framework\web\filters\CFilterChain.php(69): CInlineFilter::create(Object(slavaController), 'filters.claaaFi...')
+#1 D:\Slava\Installation\wamp\www\yii\framework\web\CController.php(291): CFilterChain::create(Object(slavaController), Object(classAction), Array)
+#2 D:\Slava\Installation\wamp\www\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(classAction), Array)
+#3 D:\Slava\Installation\wamp\www\yii\framework\web\CWebApplication.php(282): CController->run('classAction')
+#4 D:\Slava\Installation\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('slava/classActi...')
+#5 D:\Slava\Installation\wamp\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#6 D:\Slava\Installation\wamp\www\yii\index.php(40): CApplication->run()
+#7 {main}
+REQUEST_URI=/yii/index.php?r=slava/classAction/var/10
+---
+2014/07/20 12:32:33 [error] [exception.CException] exception 'CException' with message 'Filter "filters.classFilter" is invalid. Controller "slavaController" does not have the filter method "filterfilters.classFilter".' in D:\Slava\Installation\wamp\www\yii\framework\web\filters\CInlineFilter.php:46
+Stack trace:
+#0 D:\Slava\Installation\wamp\www\yii\framework\web\filters\CFilterChain.php(69): CInlineFilter::create(Object(slavaController), 'filters.classFi...')
+#1 D:\Slava\Installation\wamp\www\yii\framework\web\CController.php(291): CFilterChain::create(Object(slavaController), Object(classAction), Array)
+#2 D:\Slava\Installation\wamp\www\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(classAction), Array)
+#3 D:\Slava\Installation\wamp\www\yii\framework\web\CWebApplication.php(282): CController->run('classAction')
+#4 D:\Slava\Installation\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('slava/classActi...')
+#5 D:\Slava\Installation\wamp\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#6 D:\Slava\Installation\wamp\www\yii\index.php(40): CApplication->run()
+#7 {main}
+REQUEST_URI=/yii/index.php?r=slava/classAction/var/10
+---
+2014/07/20 12:33:57 [error] [exception.CException] exception 'CException' with message 'Filter "filters.classFilter" is invalid. Controller "slavaController" does not have the filter method "filterfilters.classFilter".' in D:\Slava\Installation\wamp\www\yii\framework\web\filters\CInlineFilter.php:46
+Stack trace:
+#0 D:\Slava\Installation\wamp\www\yii\framework\web\filters\CFilterChain.php(69): CInlineFilter::create(Object(slavaController), 'filters.classFi...')
+#1 D:\Slava\Installation\wamp\www\yii\framework\web\CController.php(291): CFilterChain::create(Object(slavaController), Object(classAction), Array)
+#2 D:\Slava\Installation\wamp\www\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(classAction), Array)
+#3 D:\Slava\Installation\wamp\www\yii\framework\web\CWebApplication.php(282): CController->run('classAction')
+#4 D:\Slava\Installation\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('slava/classActi...')
+#5 D:\Slava\Installation\wamp\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#6 D:\Slava\Installation\wamp\www\yii\index.php(40): CApplication->run()
+#7 {main}
+REQUEST_URI=/yii/index.php?r=slava/classAction/var/10
+---
+2014/07/20 12:34:55 [error] [exception.CException] exception 'CException' with message 'Filter "filters.classFilter" is invalid. Controller "slavaController" does not have the filter method "filterfilters.classFilter".' in D:\Slava\Installation\wamp\www\yii\framework\web\filters\CInlineFilter.php:46
+Stack trace:
+#0 D:\Slava\Installation\wamp\www\yii\framework\web\filters\CFilterChain.php(69): CInlineFilter::create(Object(slavaController), 'filters.classFi...')
+#1 D:\Slava\Installation\wamp\www\yii\framework\web\CController.php(291): CFilterChain::create(Object(slavaController), Object(classAction), Array)
+#2 D:\Slava\Installation\wamp\www\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(classAction), Array)
+#3 D:\Slava\Installation\wamp\www\yii\framework\web\CWebApplication.php(282): CController->run('classAction')
+#4 D:\Slava\Installation\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('slava/classActi...')
+#5 D:\Slava\Installation\wamp\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#6 D:\Slava\Installation\wamp\www\yii\index.php(40): CApplication->run()
+#7 {main}
+REQUEST_URI=/yii/index.php?r=slava/classAction/var/10
+---
+2014/07/20 12:36:07 [error] [exception.CException] exception 'CException' with message 'Filter "filters.classFilter" is invalid. Controller "slavaController" does not have the filter method "filterfilters.classFilter".' in D:\Slava\Installation\wamp\www\yii\framework\web\filters\CInlineFilter.php:46
+Stack trace:
+#0 D:\Slava\Installation\wamp\www\yii\framework\web\filters\CFilterChain.php(69): CInlineFilter::create(Object(slavaController), 'filters.classFi...')
+#1 D:\Slava\Installation\wamp\www\yii\framework\web\CController.php(291): CFilterChain::create(Object(slavaController), Object(classAction), Array)
+#2 D:\Slava\Installation\wamp\www\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(classAction), Array)
+#3 D:\Slava\Installation\wamp\www\yii\framework\web\CWebApplication.php(282): CController->run('classAction')
+#4 D:\Slava\Installation\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('slava/classActi...')
+#5 D:\Slava\Installation\wamp\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#6 D:\Slava\Installation\wamp\www\yii\index.php(40): CApplication->run()
+#7 {main}
+REQUEST_URI=/yii/index.php?r=slava/classAction/var/10
+---
+2014/07/20 12:36:51 [error] [exception.CException] exception 'CException' with message 'Filter "application.filters.classFilter" is invalid. Controller "slavaController" does not have the filter method "filterapplication.filters.classFilter".' in D:\Slava\Installation\wamp\www\yii\framework\web\filters\CInlineFilter.php:46
+Stack trace:
+#0 D:\Slava\Installation\wamp\www\yii\framework\web\filters\CFilterChain.php(69): CInlineFilter::create(Object(slavaController), 'application.fil...')
+#1 D:\Slava\Installation\wamp\www\yii\framework\web\CController.php(291): CFilterChain::create(Object(slavaController), Object(classAction), Array)
+#2 D:\Slava\Installation\wamp\www\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(classAction), Array)
+#3 D:\Slava\Installation\wamp\www\yii\framework\web\CWebApplication.php(282): CController->run('classAction')
+#4 D:\Slava\Installation\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('slava/classActi...')
+#5 D:\Slava\Installation\wamp\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#6 D:\Slava\Installation\wamp\www\yii\index.php(40): CApplication->run()
+#7 {main}
+REQUEST_URI=/yii/index.php?r=slava/classAction/var/10
+---
+2014/07/20 12:37:43 [error] [exception.CException] exception 'CException' with message 'Filter "application.controllers.filters.classFilter" is invalid. Controller "slavaController" does not have the filter method "filterapplication.controllers.filters.classFilter".' in D:\Slava\Installation\wamp\www\yii\framework\web\filters\CInlineFilter.php:46
+Stack trace:
+#0 D:\Slava\Installation\wamp\www\yii\framework\web\filters\CFilterChain.php(69): CInlineFilter::create(Object(slavaController), 'application.con...')
+#1 D:\Slava\Installation\wamp\www\yii\framework\web\CController.php(291): CFilterChain::create(Object(slavaController), Object(classAction), Array)
+#2 D:\Slava\Installation\wamp\www\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(classAction), Array)
+#3 D:\Slava\Installation\wamp\www\yii\framework\web\CWebApplication.php(282): CController->run('classAction')
+#4 D:\Slava\Installation\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('slava/classActi...')
+#5 D:\Slava\Installation\wamp\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#6 D:\Slava\Installation\wamp\www\yii\index.php(40): CApplication->run()
+#7 {main}
+REQUEST_URI=/yii/index.php?r=slava/classAction/var/10
+---
+2014/07/20 12:39:05 [error] [exception.CException] exception 'CException' with message 'Property "classFilter.var" is not defined.' in D:\Slava\Installation\wamp\www\yii\framework\base\CComponent.php:173
+Stack trace:
+#0 D:\Slava\Installation\wamp\www\yii\framework\YiiBase.php(220): CComponent->__set('var', 15)
+#1 D:\Slava\Installation\wamp\www\yii\framework\web\filters\CFilterChain.php(89): YiiBase::createComponent(Array)
+#2 D:\Slava\Installation\wamp\www\yii\framework\web\CController.php(291): CFilterChain::create(Object(slavaController), Object(classAction), Array)
+#3 D:\Slava\Installation\wamp\www\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(classAction), Array)
+#4 D:\Slava\Installation\wamp\www\yii\framework\web\CWebApplication.php(282): CController->run('classAction')
+#5 D:\Slava\Installation\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('slava/classActi...')
+#6 D:\Slava\Installation\wamp\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#7 D:\Slava\Installation\wamp\www\yii\index.php(40): CApplication->run()
+#8 {main}
+REQUEST_URI=/yii/index.php?r=slava/classAction/var/10
+---
+2014/07/20 12:41:10 [error] [exception.CException] exception 'CException' with message 'Property "classFilter.var" is not defined.' in D:\Slava\Installation\wamp\www\yii\framework\base\CComponent.php:173
+Stack trace:
+#0 D:\Slava\Installation\wamp\www\yii\framework\YiiBase.php(220): CComponent->__set('var', 15)
+#1 D:\Slava\Installation\wamp\www\yii\framework\web\filters\CFilterChain.php(89): YiiBase::createComponent(Array)
+#2 D:\Slava\Installation\wamp\www\yii\framework\web\CController.php(291): CFilterChain::create(Object(slavaController), Object(classAction), Array)
+#3 D:\Slava\Installation\wamp\www\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(classAction), Array)
+#4 D:\Slava\Installation\wamp\www\yii\framework\web\CWebApplication.php(282): CController->run('classAction')
+#5 D:\Slava\Installation\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('slava/classActi...')
+#6 D:\Slava\Installation\wamp\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#7 D:\Slava\Installation\wamp\www\yii\index.php(40): CApplication->run()
+#8 {main}
+REQUEST_URI=/yii/index.php?r=slava/classAction/var/10
+---
+2014/07/21 10:27:42 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "capcha".' in D:\Slava\Installation\wamp\www\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\Slava\Installation\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('capcha')
+#1 D:\Slava\Installation\wamp\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 D:\Slava\Installation\wamp\www\yii\index.php(40): CApplication->run()
+#3 {main}
+REQUEST_URI=/yii/?r=capcha
+---
+2014/07/21 10:27:51 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "capcha".' in D:\Slava\Installation\wamp\www\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\Slava\Installation\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('capcha')
+#1 D:\Slava\Installation\wamp\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 D:\Slava\Installation\wamp\www\yii\index.php(40): CApplication->run()
+#3 {main}
+REQUEST_URI=/yii/?r=capcha
+---
+2014/07/21 10:28:36 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "page".' in D:\Slava\Installation\wamp\www\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\Slava\Installation\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('page')
+#1 D:\Slava\Installation\wamp\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 D:\Slava\Installation\wamp\www\yii\index.php(40): CApplication->run()
+#3 {main}
+REQUEST_URI=/yii/?r=page
+---
+2014/07/21 10:30:11 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "capcha".' in D:\Slava\Installation\wamp\www\yii\framework\web\CController.php:483
+Stack trace:
+#0 D:\Slava\Installation\wamp\www\yii\framework\web\CController.php(270): CController->missingAction('capcha')
+#1 D:\Slava\Installation\wamp\www\yii\framework\web\CWebApplication.php(282): CController->run('capcha')
+#2 D:\Slava\Installation\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/capcha')
+#3 D:\Slava\Installation\wamp\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 D:\Slava\Installation\wamp\www\yii\index.php(40): CApplication->run()
+#5 {main}
+REQUEST_URI=/yii/?r=site/capcha
+---
+2014/07/21 10:30:46 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The requested view "index" was not found.' in D:\Slava\Installation\wamp\www\yii\framework\web\actions\CViewAction.php:112
+Stack trace:
+#0 D:\Slava\Installation\wamp\www\yii\framework\web\actions\CViewAction.php(123): CViewAction->resolveView('index')
+#1 D:\Slava\Installation\wamp\www\yii\framework\web\actions\CAction.php(76): CViewAction->run()
+#2 D:\Slava\Installation\wamp\www\yii\framework\web\CController.php(308): CAction->runWithParams(Array)
+#3 D:\Slava\Installation\wamp\www\yii\framework\web\CController.php(286): CController->runAction(Object(CViewAction))
+#4 D:\Slava\Installation\wamp\www\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CViewAction), Array)
+#5 D:\Slava\Installation\wamp\www\yii\framework\web\CWebApplication.php(282): CController->run('page')
+#6 D:\Slava\Installation\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/page')
+#7 D:\Slava\Installation\wamp\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#8 D:\Slava\Installation\wamp\www\yii\index.php(40): CApplication->run()
+#9 {main}
+REQUEST_URI=/yii/?r=site/page
+---
+2014/07/21 10:53:33 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "classArayAction".' in D:\Slava\Installation\wamp\www\yii\framework\web\CController.php:483
+Stack trace:
+#0 D:\Slava\Installation\wamp\www\yii\framework\web\CController.php(270): CController->missingAction('classArayAction')
+#1 D:\Slava\Installation\wamp\www\yii\framework\web\CWebApplication.php(282): CController->run('classArayAction')
+#2 D:\Slava\Installation\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('slava/classAray...')
+#3 D:\Slava\Installation\wamp\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 D:\Slava\Installation\wamp\www\yii\index.php(40): CApplication->run()
+#5 {main}
+REQUEST_URI=/yii/?r=slava/classArayAction
+---
+2014/07/21 10:53:43 [error] [php] include(classAction.php): failed to open stream: No such file or directory (D:\Slava\Installation\wamp\www\yii\framework\YiiBase.php:427)
+Stack trace:
+#0 D:\Slava\Installation\wamp\www\yii\framework\YiiBase.php(196): import()
+#1 D:\Slava\Installation\wamp\www\yii\framework\web\CController.php(440): createComponent()
+#2 D:\Slava\Installation\wamp\www\yii\framework\web\CController.php(417): slavaController->createActionFromMap()
+#3 D:\Slava\Installation\wamp\www\yii\framework\web\CController.php(259): slavaController->createAction()
+#4 D:\Slava\Installation\wamp\www\yii\framework\web\CWebApplication.php(282): slavaController->run()
+#5 D:\Slava\Installation\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#6 D:\Slava\Installation\wamp\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#7 D:\Slava\Installation\wamp\www\yii\index.php(40): CWebApplication->run()
+REQUEST_URI=/yii/?r=slava/classArrayAction
+in D:\Slava\Installation\wamp\www\yii\index.php (40)
+2014/07/21 10:54:29 [error] [exception.CException] exception 'CException' with message 'Property "classAction.var" is not defined.' in D:\Slava\Installation\wamp\www\yii\framework\base\CComponent.php:173
+Stack trace:
+#0 D:\Slava\Installation\wamp\www\yii\framework\YiiBase.php(220): CComponent->__set('var', 12)
+#1 D:\Slava\Installation\wamp\www\yii\framework\web\CController.php(440): YiiBase::createComponent(Array, Object(slavaController), 'classArrayActio...')
+#2 D:\Slava\Installation\wamp\www\yii\framework\web\CController.php(417): CController->createActionFromMap(Array, 'classArrayActio...', 'classArrayActio...')
+#3 D:\Slava\Installation\wamp\www\yii\framework\web\CController.php(259): CController->createAction('classArrayActio...')
+#4 D:\Slava\Installation\wamp\www\yii\framework\web\CWebApplication.php(282): CController->run('classArrayActio...')
+#5 D:\Slava\Installation\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('slava/classArra...')
+#6 D:\Slava\Installation\wamp\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#7 D:\Slava\Installation\wamp\www\yii\index.php(40): CApplication->run()
+#8 {main}
+REQUEST_URI=/yii/?r=slava/classArrayAction
+---
+2014/07/21 10:54:51 [error] [exception.CException] exception 'CException' with message 'Object configuration must be an array containing a "class" element.' in D:\Slava\Installation\wamp\www\yii\framework\YiiBase.php:193
+Stack trace:
+#0 D:\Slava\Installation\wamp\www\yii\framework\web\CController.php(440): YiiBase::createComponent(Array, Object(slavaController), 'classArrayActio...')
+#1 D:\Slava\Installation\wamp\www\yii\framework\web\CController.php(417): CController->createActionFromMap(Array, 'classArrayActio...', 'classArrayActio...')
+#2 D:\Slava\Installation\wamp\www\yii\framework\web\CController.php(259): CController->createAction('classArrayActio...')
+#3 D:\Slava\Installation\wamp\www\yii\framework\web\CWebApplication.php(282): CController->run('classArrayActio...')
+#4 D:\Slava\Installation\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('slava/classArra...')
+#5 D:\Slava\Installation\wamp\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#6 D:\Slava\Installation\wamp\www\yii\index.php(40): CApplication->run()
+#7 {main}
+REQUEST_URI=/yii/?r=slava/classArrayAction
+---
+2014/07/21 11:19:20 [error] [exception.CException] exception 'CException' with message 'Property "classAction.vss" is not defined.' in D:\Slava\Installation\wamp\www\yii\framework\base\CComponent.php:173
+Stack trace:
+#0 D:\Slava\Installation\wamp\www\yii\framework\YiiBase.php(220): CComponent->__set('vss', 12)
+#1 D:\Slava\Installation\wamp\www\yii\framework\web\CController.php(440): YiiBase::createComponent(Array, Object(slavaController), 'classArrayActio...')
+#2 D:\Slava\Installation\wamp\www\yii\framework\web\CController.php(417): CController->createActionFromMap(Array, 'classArrayActio...', 'classArrayActio...')
+#3 D:\Slava\Installation\wamp\www\yii\framework\web\CController.php(259): CController->createAction('classArrayActio...')
+#4 D:\Slava\Installation\wamp\www\yii\framework\web\CWebApplication.php(282): CController->run('classArrayActio...')
+#5 D:\Slava\Installation\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('slava/classArra...')
+#6 D:\Slava\Installation\wamp\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#7 D:\Slava\Installation\wamp\www\yii\index.php(40): CApplication->run()
+#8 {main}
+REQUEST_URI=/yii/?r=slava/classArrayAction
+---
+2014/07/21 11:23:00 [error] [exception.CException] exception 'CException' with message 'Property "classAction.v" is not defined.' in D:\Slava\Installation\wamp\www\yii\framework\base\CComponent.php:173
+Stack trace:
+#0 D:\Slava\Installation\wamp\www\yii\framework\YiiBase.php(220): CComponent->__set('v', 12)
+#1 D:\Slava\Installation\wamp\www\yii\framework\web\CController.php(440): YiiBase::createComponent(Array, Object(slavaController), 'classArrayActio...')
+#2 D:\Slava\Installation\wamp\www\yii\framework\web\CController.php(417): CController->createActionFromMap(Array, 'classArrayActio...', 'classArrayActio...')
+#3 D:\Slava\Installation\wamp\www\yii\framework\web\CController.php(259): CController->createAction('classArrayActio...')
+#4 D:\Slava\Installation\wamp\www\yii\framework\web\CWebApplication.php(282): CController->run('classArrayActio...')
+#5 D:\Slava\Installation\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('slava/classArra...')
+#6 D:\Slava\Installation\wamp\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#7 D:\Slava\Installation\wamp\www\yii\index.php(40): CApplication->run()
+#8 {main}
+REQUEST_URI=/yii/?r=slava/classArrayAction
+---
+2014/07/21 11:23:46 [error] [exception.CException] exception 'CException' with message 'Property "slavaController.v" is not defined.' in D:\Slava\Installation\wamp\www\yii\framework\base\CComponent.php:130
+Stack trace:
+#0 xdebug://debug-eval(1): CComponent->__get('v')
+#1 D:\Slava\Installation\wamp\www\yii\protected\controllers\actions\classAction.php(10): classAction::classAction()
+#2 D:\Slava\Installation\wamp\www\yii\framework\YiiBase.php(204): classAction->classAction(Object(slavaController), 'classArrayActio...')
+#3 D:\Slava\Installation\wamp\www\yii\framework\web\CController.php(440): YiiBase::createComponent(Array, Object(slavaController), 'classArrayActio...')
+#4 D:\Slava\Installation\wamp\www\yii\framework\web\CController.php(417): CController->createActionFromMap(Array, 'classArrayActio...', 'classArrayActio...')
+#5 D:\Slava\Installation\wamp\www\yii\framework\web\CController.php(259): CController->createAction('classArrayActio...')
+#6 D:\Slava\Installation\wamp\www\yii\framework\web\CWebApplication.php(282): CController->run('classArrayActio...')
+#7 D:\Slava\Installation\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('slava/classArra...')
+#8 D:\Slava\Installation\wamp\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#9 D:\Slava\Installation\wamp\www\yii\index.php(40): CApplication->run()
+#10 {main}
+REQUEST_URI=/yii/?r=slava/classArrayAction
+---
+2014/07/21 11:26:16 [error] [exception.CException] exception 'CException' with message 'Property "slavaController.v" is not defined.' in D:\Slava\Installation\wamp\www\yii\framework\base\CComponent.php:130
+Stack trace:
+#0 xdebug://debug-eval(1): CComponent->__get('v')
+#1 D:\Slava\Installation\wamp\www\yii\protected\controllers\actions\classAction.php(10): classAction::classAction()
+#2 D:\Slava\Installation\wamp\www\yii\framework\YiiBase.php(204): classAction->classAction(Object(slavaController), 'classAction')
+#3 D:\Slava\Installation\wamp\www\yii\framework\web\CController.php(440): YiiBase::createComponent(Array, Object(slavaController), 'classAction')
+#4 D:\Slava\Installation\wamp\www\yii\framework\web\CController.php(417): CController->createActionFromMap(Array, 'classAction', 'classAction')
+#5 D:\Slava\Installation\wamp\www\yii\framework\web\CController.php(259): CController->createAction('classAction')
+#6 D:\Slava\Installation\wamp\www\yii\framework\web\CWebApplication.php(282): CController->run('classAction')
+#7 D:\Slava\Installation\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('slava/classActi...')
+#8 D:\Slava\Installation\wamp\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#9 D:\Slava\Installation\wamp\www\yii\index.php(40): CApplication->run()
+#10 {main}
+REQUEST_URI=/yii/?r=slava/classAction
+---
+2014/07/21 11:26:34 [error] [exception.CException] exception 'CException' with message 'Property "slavaController.v" is not defined.' in D:\Slava\Installation\wamp\www\yii\framework\base\CComponent.php:130
+Stack trace:
+#0 xdebug://debug-eval(1): CComponent->__get('v')
+#1 D:\Slava\Installation\wamp\www\yii\protected\controllers\actions\classAction.php(10): classAction::classAction()
+#2 D:\Slava\Installation\wamp\www\yii\framework\YiiBase.php(204): classAction->classAction(Object(slavaController), 'classArrayActio...')
+#3 D:\Slava\Installation\wamp\www\yii\framework\web\CController.php(440): YiiBase::createComponent(Array, Object(slavaController), 'classArrayActio...')
+#4 D:\Slava\Installation\wamp\www\yii\framework\web\CController.php(417): CController->createActionFromMap(Array, 'classArrayActio...', 'classArrayActio...')
+#5 D:\Slava\Installation\wamp\www\yii\framework\web\CController.php(259): CController->createAction('classArrayActio...')
+#6 D:\Slava\Installation\wamp\www\yii\framework\web\CWebApplication.php(282): CController->run('classArrayActio...')
+#7 D:\Slava\Installation\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('slava/classArra...')
+#8 D:\Slava\Installation\wamp\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#9 D:\Slava\Installation\wamp\www\yii\index.php(40): CApplication->run()
+#10 {main}
+REQUEST_URI=/yii/?r=slava/classArrayAction
+---
+2014/07/21 11:27:29 [error] [exception.CException] exception 'CException' with message 'Property "slavaController.v" is not defined.' in D:\Slava\Installation\wamp\www\yii\framework\base\CComponent.php:130
+Stack trace:
+#0 xdebug://debug-eval(1): CComponent->__get('v')
+#1 D:\Slava\Installation\wamp\www\yii\protected\controllers\actions\classAction.php(10): classAction::classAction()
+#2 D:\Slava\Installation\wamp\www\yii\framework\YiiBase.php(204): classAction->classAction(Object(slavaController), 'classArrayActio...')
+#3 D:\Slava\Installation\wamp\www\yii\framework\web\CController.php(440): YiiBase::createComponent(Array, Object(slavaController), 'classArrayActio...')
+#4 D:\Slava\Installation\wamp\www\yii\framework\web\CController.php(417): CController->createActionFromMap(Array, 'classArrayActio...', 'classArrayActio...')
+#5 D:\Slava\Installation\wamp\www\yii\framework\web\CController.php(259): CController->createAction('classArrayActio...')
+#6 D:\Slava\Installation\wamp\www\yii\framework\web\CWebApplication.php(282): CController->run('classArrayActio...')
+#7 D:\Slava\Installation\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('slava/classArra...')
+#8 D:\Slava\Installation\wamp\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#9 D:\Slava\Installation\wamp\www\yii\index.php(40): CApplication->run()
+#10 {main}
+REQUEST_URI=/yii/?r=slava/classArrayAction
+---
+2014/07/21 12:16:53 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "showMyView".' in D:\Slava\Installation\wamp\www\yii\framework\web\CController.php:483
+Stack trace:
+#0 D:\Slava\Installation\wamp\www\yii\framework\web\CController.php(270): CController->missingAction('showMyView')
+#1 D:\Slava\Installation\wamp\www\yii\framework\web\CWebApplication.php(282): CController->run('showMyView')
+#2 D:\Slava\Installation\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('slava/showMyVie...')
+#3 D:\Slava\Installation\wamp\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 D:\Slava\Installation\wamp\www\yii\index.php(40): CApplication->run()
+#5 {main}
+REQUEST_URI=/yii/?r=slava/showMyView
+---
+2014/07/21 12:17:11 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "showMyView".' in D:\Slava\Installation\wamp\www\yii\framework\web\CController.php:483
+Stack trace:
+#0 D:\Slava\Installation\wamp\www\yii\framework\web\CController.php(270): CController->missingAction('showMyView')
+#1 D:\Slava\Installation\wamp\www\yii\framework\web\CWebApplication.php(282): CController->run('showMyView')
+#2 D:\Slava\Installation\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('slava/showMyVie...')
+#3 D:\Slava\Installation\wamp\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 D:\Slava\Installation\wamp\www\yii\index.php(40): CApplication->run()
+#5 {main}
+REQUEST_URI=/yii/?r=slava/showMyView
+---
+2014/07/21 12:17:25 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "showMyView".' in D:\Slava\Installation\wamp\www\yii\framework\web\CController.php:483
+Stack trace:
+#0 D:\Slava\Installation\wamp\www\yii\framework\web\CController.php(270): CController->missingAction('showMyView')
+#1 D:\Slava\Installation\wamp\www\yii\framework\web\CWebApplication.php(282): CController->run('showMyView')
+#2 D:\Slava\Installation\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('Slava/showMyVie...')
+#3 D:\Slava\Installation\wamp\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 D:\Slava\Installation\wamp\www\yii\index.php(40): CApplication->run()
+#5 {main}
+REQUEST_URI=/yii/?r=Slava/showMyView
+---
+2014/07/21 12:18:14 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "ShowMyView".' in D:\Slava\Installation\wamp\www\yii\framework\web\CController.php:483
+Stack trace:
+#0 D:\Slava\Installation\wamp\www\yii\framework\web\CController.php(270): CController->missingAction('ShowMyView')
+#1 D:\Slava\Installation\wamp\www\yii\framework\web\CWebApplication.php(282): CController->run('ShowMyView')
+#2 D:\Slava\Installation\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('Slava/ShowMyVie...')
+#3 D:\Slava\Installation\wamp\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 D:\Slava\Installation\wamp\www\yii\index.php(40): CApplication->run()
+#5 {main}
+REQUEST_URI=/yii/?r=Slava/ShowMyView
+---
+2014/07/21 12:18:28 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "ShowMyView".' in D:\Slava\Installation\wamp\www\yii\framework\web\CController.php:483
+Stack trace:
+#0 D:\Slava\Installation\wamp\www\yii\framework\web\CController.php(270): CController->missingAction('ShowMyView')
+#1 D:\Slava\Installation\wamp\www\yii\framework\web\CWebApplication.php(282): CController->run('ShowMyView')
+#2 D:\Slava\Installation\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('Slava/ShowMyVie...')
+#3 D:\Slava\Installation\wamp\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 D:\Slava\Installation\wamp\www\yii\index.php(40): CApplication->run()
+#5 {main}
+REQUEST_URI=/yii/?r=Slava/ShowMyView
+---
+2014/07/21 12:18:37 [error] [exception.CException] exception 'CException' with message 'slavaController cannot find the requested view "myView".' in D:\Slava\Installation\wamp\www\yii\framework\web\CController.php:878
+Stack trace:
+#0 D:\Slava\Installation\wamp\www\yii\framework\web\CController.php(782): CController->renderPartial('myView', Array, true)
+#1 D:\Slava\Installation\wamp\www\yii\protected\controllers\SlavaController.php(71): CController->render('myView', Array)
+#2 D:\Slava\Installation\wamp\www\yii\framework\web\actions\CInlineAction.php(49): slavaController->actionShowMyView()
+#3 D:\Slava\Installation\wamp\www\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#4 D:\Slava\Installation\wamp\www\yii\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#5 D:\Slava\Installation\wamp\www\yii\framework\web\CController.php(291): CFilterChain->run()
+#6 D:\Slava\Installation\wamp\www\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 D:\Slava\Installation\wamp\www\yii\framework\web\CWebApplication.php(282): CController->run('ShowMyView')
+#8 D:\Slava\Installation\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('Slava/ShowMyVie...')
+#9 D:\Slava\Installation\wamp\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#10 D:\Slava\Installation\wamp\www\yii\index.php(40): CApplication->run()
+#11 {main}
+REQUEST_URI=/yii/?r=Slava/ShowMyView
+---
+2014/07/21 12:19:04 [error] [exception.CException] exception 'CException' with message 'slavaController cannot find the requested view "myView".' in D:\Slava\Installation\wamp\www\yii\framework\web\CController.php:878
+Stack trace:
+#0 D:\Slava\Installation\wamp\www\yii\framework\web\CController.php(782): CController->renderPartial('myView', Array, true)
+#1 D:\Slava\Installation\wamp\www\yii\protected\controllers\SlavaController.php(71): CController->render('myView', Array)
+#2 D:\Slava\Installation\wamp\www\yii\framework\web\actions\CInlineAction.php(49): slavaController->actionShowMyView()
+#3 D:\Slava\Installation\wamp\www\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#4 D:\Slava\Installation\wamp\www\yii\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#5 D:\Slava\Installation\wamp\www\yii\framework\web\CController.php(291): CFilterChain->run()
+#6 D:\Slava\Installation\wamp\www\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 D:\Slava\Installation\wamp\www\yii\framework\web\CWebApplication.php(282): CController->run('ShowMyView')
+#8 D:\Slava\Installation\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('Slava/ShowMyVie...')
+#9 D:\Slava\Installation\wamp\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#10 D:\Slava\Installation\wamp\www\yii\index.php(40): CApplication->run()
+#11 {main}
+REQUEST_URI=/yii/?r=Slava/ShowMyView
+---
+2014/07/21 12:19:23 [error] [exception.CException] exception 'CException' with message 'slavaController cannot find the requested view "layouts/myView".' in D:\Slava\Installation\wamp\www\yii\framework\web\CController.php:878
+Stack trace:
+#0 D:\Slava\Installation\wamp\www\yii\framework\web\CController.php(782): CController->renderPartial('layouts/myView', Array, true)
+#1 D:\Slava\Installation\wamp\www\yii\protected\controllers\SlavaController.php(71): CController->render('layouts/myView', Array)
+#2 D:\Slava\Installation\wamp\www\yii\framework\web\actions\CInlineAction.php(49): slavaController->actionShowMyView()
+#3 D:\Slava\Installation\wamp\www\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#4 D:\Slava\Installation\wamp\www\yii\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#5 D:\Slava\Installation\wamp\www\yii\framework\web\CController.php(291): CFilterChain->run()
+#6 D:\Slava\Installation\wamp\www\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 D:\Slava\Installation\wamp\www\yii\framework\web\CWebApplication.php(282): CController->run('ShowMyView')
+#8 D:\Slava\Installation\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('Slava/ShowMyVie...')
+#9 D:\Slava\Installation\wamp\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#10 D:\Slava\Installation\wamp\www\yii\index.php(40): CApplication->run()
+#11 {main}
+REQUEST_URI=/yii/?r=Slava/ShowMyView
+---
+2014/07/21 12:19:39 [error] [exception.CException] exception 'CException' with message 'slavaController cannot find the requested view "layouts/myView".' in D:\Slava\Installation\wamp\www\yii\framework\web\CController.php:878
+Stack trace:
+#0 D:\Slava\Installation\wamp\www\yii\framework\web\CController.php(782): CController->renderPartial('layouts/myView', Array, true)
+#1 D:\Slava\Installation\wamp\www\yii\protected\controllers\SlavaController.php(71): CController->render('layouts/myView', Array)
+#2 D:\Slava\Installation\wamp\www\yii\framework\web\actions\CInlineAction.php(49): slavaController->actionShowMyView()
+#3 D:\Slava\Installation\wamp\www\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#4 D:\Slava\Installation\wamp\www\yii\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#5 D:\Slava\Installation\wamp\www\yii\framework\web\CController.php(291): CFilterChain->run()
+#6 D:\Slava\Installation\wamp\www\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 D:\Slava\Installation\wamp\www\yii\framework\web\CWebApplication.php(282): CController->run('ShowMyView')
+#8 D:\Slava\Installation\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('Slava/ShowMyVie...')
+#9 D:\Slava\Installation\wamp\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#10 D:\Slava\Installation\wamp\www\yii\index.php(40): CApplication->run()
+#11 {main}
+REQUEST_URI=/yii/?r=Slava/ShowMyView
+---
+2014/07/21 12:20:45 [error] [exception.CException] exception 'CException' with message 'slavaController cannot find the requested view "layouts/myView".' in D:\Slava\Installation\wamp\www\yii\framework\web\CController.php:878
+Stack trace:
+#0 D:\Slava\Installation\wamp\www\yii\framework\web\CController.php(782): CController->renderPartial('layouts/myView', Array, true)
+#1 D:\Slava\Installation\wamp\www\yii\protected\controllers\SlavaController.php(71): CController->render('layouts/myView', Array)
+#2 D:\Slava\Installation\wamp\www\yii\framework\web\actions\CInlineAction.php(49): slavaController->actionShowMyView()
+#3 D:\Slava\Installation\wamp\www\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#4 D:\Slava\Installation\wamp\www\yii\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#5 D:\Slava\Installation\wamp\www\yii\framework\web\CController.php(291): CFilterChain->run()
+#6 D:\Slava\Installation\wamp\www\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 D:\Slava\Installation\wamp\www\yii\framework\web\CWebApplication.php(282): CController->run('ShowMyView')
+#8 D:\Slava\Installation\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('Slava/ShowMyVie...')
+#9 D:\Slava\Installation\wamp\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#10 D:\Slava\Installation\wamp\www\yii\index.php(40): CApplication->run()
+#11 {main}
+REQUEST_URI=/yii/?r=Slava/ShowMyView
+---
+2014/07/21 12:20:48 [error] [exception.CException] exception 'CException' with message 'slavaController cannot find the requested view "layouts/myView".' in D:\Slava\Installation\wamp\www\yii\framework\web\CController.php:878
+Stack trace:
+#0 D:\Slava\Installation\wamp\www\yii\framework\web\CController.php(782): CController->renderPartial('layouts/myView', Array, true)
+#1 D:\Slava\Installation\wamp\www\yii\protected\controllers\SlavaController.php(71): CController->render('layouts/myView', Array)
+#2 D:\Slava\Installation\wamp\www\yii\framework\web\actions\CInlineAction.php(49): slavaController->actionShowMyView()
+#3 D:\Slava\Installation\wamp\www\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#4 D:\Slava\Installation\wamp\www\yii\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#5 D:\Slava\Installation\wamp\www\yii\framework\web\CController.php(291): CFilterChain->run()
+#6 D:\Slava\Installation\wamp\www\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 D:\Slava\Installation\wamp\www\yii\framework\web\CWebApplication.php(282): CController->run('ShowMyView')
+#8 D:\Slava\Installation\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('Slava/ShowMyVie...')
+#9 D:\Slava\Installation\wamp\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#10 D:\Slava\Installation\wamp\www\yii\index.php(40): CApplication->run()
+#11 {main}
+REQUEST_URI=/yii/?r=Slava/ShowMyView
+---
+2014/07/21 12:21:18 [error] [exception.CException] exception 'CException' with message 'slavaController cannot find the requested view "myView".' in D:\Slava\Installation\wamp\www\yii\framework\web\CController.php:878
+Stack trace:
+#0 D:\Slava\Installation\wamp\www\yii\framework\web\CController.php(782): CController->renderPartial('myView', Array, true)
+#1 D:\Slava\Installation\wamp\www\yii\protected\controllers\SlavaController.php(71): CController->render('myView', Array)
+#2 D:\Slava\Installation\wamp\www\yii\framework\web\actions\CInlineAction.php(49): slavaController->actionShowMyView()
+#3 D:\Slava\Installation\wamp\www\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#4 D:\Slava\Installation\wamp\www\yii\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#5 D:\Slava\Installation\wamp\www\yii\framework\web\CController.php(291): CFilterChain->run()
+#6 D:\Slava\Installation\wamp\www\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 D:\Slava\Installation\wamp\www\yii\framework\web\CWebApplication.php(282): CController->run('ShowMyView')
+#8 D:\Slava\Installation\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('Slava/ShowMyVie...')
+#9 D:\Slava\Installation\wamp\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#10 D:\Slava\Installation\wamp\www\yii\index.php(40): CApplication->run()
+#11 {main}
+REQUEST_URI=/yii/?r=Slava/ShowMyView
+---
+2014/07/21 12:25:06 [error] [exception.CException] exception 'CException' with message 'slavaController cannot find the requested view "myView".' in D:\Slava\Installation\wamp\www\yii\framework\web\CController.php:878
+Stack trace:
+#0 D:\Slava\Installation\wamp\www\yii\framework\web\CController.php(782): CController->renderPartial('myView', Array, true)
+#1 D:\Slava\Installation\wamp\www\yii\protected\controllers\SlavaController.php(71): CController->render('myView', Array)
+#2 D:\Slava\Installation\wamp\www\yii\framework\web\actions\CInlineAction.php(49): slavaController->actionShowMyView()
+#3 D:\Slava\Installation\wamp\www\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#4 D:\Slava\Installation\wamp\www\yii\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#5 D:\Slava\Installation\wamp\www\yii\framework\web\CController.php(291): CFilterChain->run()
+#6 D:\Slava\Installation\wamp\www\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 D:\Slava\Installation\wamp\www\yii\framework\web\CWebApplication.php(282): CController->run('ShowMyView')
+#8 D:\Slava\Installation\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('Slava/ShowMyVie...')
+#9 D:\Slava\Installation\wamp\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#10 D:\Slava\Installation\wamp\www\yii\index.php(40): CApplication->run()
+#11 {main}
+REQUEST_URI=/yii/?r=Slava/ShowMyView
+---
+2014/07/21 12:25:07 [error] [exception.CException] exception 'CException' with message 'slavaController cannot find the requested view "myView".' in D:\Slava\Installation\wamp\www\yii\framework\web\CController.php:878
+Stack trace:
+#0 D:\Slava\Installation\wamp\www\yii\framework\web\CController.php(782): CController->renderPartial('myView', Array, true)
+#1 D:\Slava\Installation\wamp\www\yii\protected\controllers\SlavaController.php(71): CController->render('myView', Array)
+#2 D:\Slava\Installation\wamp\www\yii\framework\web\actions\CInlineAction.php(49): slavaController->actionShowMyView()
+#3 D:\Slava\Installation\wamp\www\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#4 D:\Slava\Installation\wamp\www\yii\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#5 D:\Slava\Installation\wamp\www\yii\framework\web\CController.php(291): CFilterChain->run()
+#6 D:\Slava\Installation\wamp\www\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 D:\Slava\Installation\wamp\www\yii\framework\web\CWebApplication.php(282): CController->run('ShowMyView')
+#8 D:\Slava\Installation\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('Slava/ShowMyVie...')
+#9 D:\Slava\Installation\wamp\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#10 D:\Slava\Installation\wamp\www\yii\index.php(40): CApplication->run()
+#11 {main}
+REQUEST_URI=/yii/?r=Slava/ShowMyView
+---
+2014/07/21 12:32:23 [error] [exception.CException] exception 'CException' with message 'slavaController cannot find the requested view "myView".' in D:\Slava\Installation\wamp\www\yii\framework\web\CController.php:878
+Stack trace:
+#0 D:\Slava\Installation\wamp\www\yii\framework\web\CController.php(782): CController->renderPartial('myView', Array, true)
+#1 D:\Slava\Installation\wamp\www\yii\protected\controllers\SlavaController.php(71): CController->render('myView', Array)
+#2 D:\Slava\Installation\wamp\www\yii\framework\web\actions\CInlineAction.php(49): slavaController->actionShowMyView()
+#3 D:\Slava\Installation\wamp\www\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#4 D:\Slava\Installation\wamp\www\yii\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#5 D:\Slava\Installation\wamp\www\yii\framework\web\CController.php(291): CFilterChain->run()
+#6 D:\Slava\Installation\wamp\www\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 D:\Slava\Installation\wamp\www\yii\framework\web\CWebApplication.php(282): CController->run('ShowMyView')
+#8 D:\Slava\Installation\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('Slava/ShowMyVie...')
+#9 D:\Slava\Installation\wamp\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#10 D:\Slava\Installation\wamp\www\yii\index.php(40): CApplication->run()
+#11 {main}
+REQUEST_URI=/yii/?r=Slava/ShowMyView
+---
+2014/07/21 12:34:06 [error] [exception.CException] exception 'CException' with message 'slavaController cannot find the requested view "myView".' in D:\Slava\Installation\wamp\www\yii\framework\web\CController.php:878
+Stack trace:
+#0 D:\Slava\Installation\wamp\www\yii\framework\web\CController.php(782): CController->renderPartial('myView', Array, true)
+#1 D:\Slava\Installation\wamp\www\yii\protected\controllers\SlavaController.php(71): CController->render('myView', Array)
+#2 D:\Slava\Installation\wamp\www\yii\framework\web\actions\CInlineAction.php(49): slavaController->actionShowMyView()
+#3 D:\Slava\Installation\wamp\www\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#4 D:\Slava\Installation\wamp\www\yii\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#5 D:\Slava\Installation\wamp\www\yii\framework\web\CController.php(291): CFilterChain->run()
+#6 D:\Slava\Installation\wamp\www\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 D:\Slava\Installation\wamp\www\yii\framework\web\CWebApplication.php(282): CController->run('ShowMyView')
+#8 D:\Slava\Installation\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('Slava/ShowMyVie...')
+#9 D:\Slava\Installation\wamp\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#10 D:\Slava\Installation\wamp\www\yii\index.php(40): CApplication->run()
+#11 {main}
+REQUEST_URI=/yii/?r=Slava/ShowMyView
+---
+2014/07/21 12:34:08 [error] [exception.CException] exception 'CException' with message 'slavaController cannot find the requested view "myView".' in D:\Slava\Installation\wamp\www\yii\framework\web\CController.php:878
+Stack trace:
+#0 D:\Slava\Installation\wamp\www\yii\framework\web\CController.php(782): CController->renderPartial('myView', Array, true)
+#1 D:\Slava\Installation\wamp\www\yii\protected\controllers\SlavaController.php(71): CController->render('myView', Array)
+#2 D:\Slava\Installation\wamp\www\yii\framework\web\actions\CInlineAction.php(49): slavaController->actionShowMyView()
+#3 D:\Slava\Installation\wamp\www\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#4 D:\Slava\Installation\wamp\www\yii\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#5 D:\Slava\Installation\wamp\www\yii\framework\web\CController.php(291): CFilterChain->run()
+#6 D:\Slava\Installation\wamp\www\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 D:\Slava\Installation\wamp\www\yii\framework\web\CWebApplication.php(282): CController->run('ShowMyView')
+#8 D:\Slava\Installation\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('Slava/ShowMyVie...')
+#9 D:\Slava\Installation\wamp\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#10 D:\Slava\Installation\wamp\www\yii\index.php(40): CApplication->run()
+#11 {main}
+REQUEST_URI=/yii/?r=Slava/ShowMyView
+---
+2014/07/21 12:34:08 [error] [exception.CException] exception 'CException' with message 'slavaController cannot find the requested view "myView".' in D:\Slava\Installation\wamp\www\yii\framework\web\CController.php:878
+Stack trace:
+#0 D:\Slava\Installation\wamp\www\yii\framework\web\CController.php(782): CController->renderPartial('myView', Array, true)
+#1 D:\Slava\Installation\wamp\www\yii\protected\controllers\SlavaController.php(71): CController->render('myView', Array)
+#2 D:\Slava\Installation\wamp\www\yii\framework\web\actions\CInlineAction.php(49): slavaController->actionShowMyView()
+#3 D:\Slava\Installation\wamp\www\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#4 D:\Slava\Installation\wamp\www\yii\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#5 D:\Slava\Installation\wamp\www\yii\framework\web\CController.php(291): CFilterChain->run()
+#6 D:\Slava\Installation\wamp\www\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 D:\Slava\Installation\wamp\www\yii\framework\web\CWebApplication.php(282): CController->run('ShowMyView')
+#8 D:\Slava\Installation\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('Slava/ShowMyVie...')
+#9 D:\Slava\Installation\wamp\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#10 D:\Slava\Installation\wamp\www\yii\index.php(40): CApplication->run()
+#11 {main}
+REQUEST_URI=/yii/?r=Slava/ShowMyView
+---
+2014/07/21 12:35:58 [error] [exception.CException] exception 'CException' with message 'slavaController cannot find the requested view "myView".' in D:\Slava\Installation\wamp\www\yii\framework\web\CController.php:878
+Stack trace:
+#0 D:\Slava\Installation\wamp\www\yii\framework\web\CController.php(782): CController->renderPartial('myView', Array, true)
+#1 D:\Slava\Installation\wamp\www\yii\protected\controllers\SlavaController.php(71): CController->render('myView', Array)
+#2 D:\Slava\Installation\wamp\www\yii\framework\web\actions\CInlineAction.php(49): slavaController->actionShowMyView()
+#3 D:\Slava\Installation\wamp\www\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#4 D:\Slava\Installation\wamp\www\yii\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#5 D:\Slava\Installation\wamp\www\yii\framework\web\CController.php(291): CFilterChain->run()
+#6 D:\Slava\Installation\wamp\www\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 D:\Slava\Installation\wamp\www\yii\framework\web\CWebApplication.php(282): CController->run('ShowMyView')
+#8 D:\Slava\Installation\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('Slava/ShowMyVie...')
+#9 D:\Slava\Installation\wamp\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#10 D:\Slava\Installation\wamp\www\yii\index.php(40): CApplication->run()
+#11 {main}
+REQUEST_URI=/yii/?r=Slava/ShowMyView
+---
+2014/07/21 12:35:59 [error] [exception.CException] exception 'CException' with message 'slavaController cannot find the requested view "myView".' in D:\Slava\Installation\wamp\www\yii\framework\web\CController.php:878
+Stack trace:
+#0 D:\Slava\Installation\wamp\www\yii\framework\web\CController.php(782): CController->renderPartial('myView', Array, true)
+#1 D:\Slava\Installation\wamp\www\yii\protected\controllers\SlavaController.php(71): CController->render('myView', Array)
+#2 D:\Slava\Installation\wamp\www\yii\framework\web\actions\CInlineAction.php(49): slavaController->actionShowMyView()
+#3 D:\Slava\Installation\wamp\www\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#4 D:\Slava\Installation\wamp\www\yii\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#5 D:\Slava\Installation\wamp\www\yii\framework\web\CController.php(291): CFilterChain->run()
+#6 D:\Slava\Installation\wamp\www\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 D:\Slava\Installation\wamp\www\yii\framework\web\CWebApplication.php(282): CController->run('ShowMyView')
+#8 D:\Slava\Installation\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('Slava/ShowMyVie...')
+#9 D:\Slava\Installation\wamp\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#10 D:\Slava\Installation\wamp\www\yii\index.php(40): CApplication->run()
+#11 {main}
+REQUEST_URI=/yii/?r=Slava/ShowMyView
+---
+2014/07/27 08:53:25 [error] [exception.CException] exception 'CException' with message 'slavaController cannot find the requested view "forWht".' in D:\Slava\Installation\wamp\www\yii\framework\web\CController.php:878
+Stack trace:
+#0 D:\Slava\Installation\wamp\www\yii\framework\web\CController.php(782): CController->renderPartial('forWht', NULL, true)
+#1 D:\Slava\Installation\wamp\www\yii\protected\controllers\SlavaController.php(89): CController->render('forWht')
+#2 D:\Slava\Installation\wamp\www\yii\framework\web\actions\CInlineAction.php(49): slavaController->actionWgt()
+#3 D:\Slava\Installation\wamp\www\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#4 D:\Slava\Installation\wamp\www\yii\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#5 D:\Slava\Installation\wamp\www\yii\framework\web\CController.php(291): CFilterChain->run()
+#6 D:\Slava\Installation\wamp\www\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 D:\Slava\Installation\wamp\www\yii\framework\web\CWebApplication.php(282): CController->run('wgt')
+#8 D:\Slava\Installation\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('slava/wgt')
+#9 D:\Slava\Installation\wamp\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#10 D:\Slava\Installation\wamp\www\yii\index.php(41): CApplication->run()
+#11 {main}
+REQUEST_URI=/yii/index.php?r=slava/wgt
+---
+2014/07/27 08:54:13 [error] [php] include(widgets/Mywidget.php): failed to open stream: No such file or directory (D:\Slava\Installation\wamp\www\yii\framework\YiiBase.php:427)
+Stack trace:
+#0 D:\Slava\Installation\wamp\www\yii\framework\web\CWidgetFactory.php(146): import()
+#1 D:\Slava\Installation\wamp\www\yii\framework\web\CBaseController.php(146): CWidgetFactory->createWidget()
+#2 D:\Slava\Installation\wamp\www\yii\framework\web\CBaseController.php(189): slavaController->createWidget()
+#3 D:\Slava\Installation\wamp\www\yii\protected\views\slava\forWgt.php(5): slavaController->beginWidget()
+#4 D:\Slava\Installation\wamp\www\yii\framework\web\CBaseController.php(126): require()
+#5 D:\Slava\Installation\wamp\www\yii\framework\web\CBaseController.php(95): slavaController->renderInternal()
+#6 D:\Slava\Installation\wamp\www\yii\framework\web\CController.php(869): slavaController->renderFile()
+#7 D:\Slava\Installation\wamp\www\yii\framework\web\CController.php(782): slavaController->renderPartial()
+#8 D:\Slava\Installation\wamp\www\yii\protected\controllers\SlavaController.php(89): slavaController->render()
+#9 D:\Slava\Installation\wamp\www\yii\framework\web\actions\CInlineAction.php(49): slavaController->actionWgt()
+#10 D:\Slava\Installation\wamp\www\yii\framework\web\CController.php(308): CInlineAction->runWithParams()
+#11 D:\Slava\Installation\wamp\www\yii\framework\web\filters\CFilterChain.php(133): slavaController->runAction()
+#12 D:\Slava\Installation\wamp\www\yii\framework\web\CController.php(291): CFilterChain->run()
+#13 D:\Slava\Installation\wamp\www\yii\framework\web\CController.php(265): slavaController->runActionWithFilters()
+#14 D:\Slava\Installation\wamp\www\yii\framework\web\CWebApplication.php(282): slavaController->run()
+#15 D:\Slava\Installation\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#16 D:\Slava\Installation\wamp\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#17 D:\Slava\Installation\wamp\www\yii\index.php(41): CWebApplication->run()
+REQUEST_URI=/yii/index.php?r=slava/wgt
+in D:\Slava\Installation\wamp\www\yii\protected\views\slava\forWgt.php (5)
+in D:\Slava\Installation\wamp\www\yii\protected\controllers\SlavaController.php (89)
+in D:\Slava\Installation\wamp\www\yii\index.php (41)
+2014/07/27 08:55:52 [error] [php] include(wingets/Mywidget.php): failed to open stream: No such file or directory (D:\Slava\Installation\wamp\www\yii\framework\YiiBase.php:427)
+Stack trace:
+#0 D:\Slava\Installation\wamp\www\yii\framework\web\CWidgetFactory.php(146): import()
+#1 D:\Slava\Installation\wamp\www\yii\framework\web\CBaseController.php(146): CWidgetFactory->createWidget()
+#2 D:\Slava\Installation\wamp\www\yii\framework\web\CBaseController.php(189): slavaController->createWidget()
+#3 D:\Slava\Installation\wamp\www\yii\protected\views\slava\forWgt.php(5): slavaController->beginWidget()
+#4 D:\Slava\Installation\wamp\www\yii\framework\web\CBaseController.php(126): require()
+#5 D:\Slava\Installation\wamp\www\yii\framework\web\CBaseController.php(95): slavaController->renderInternal()
+#6 D:\Slava\Installation\wamp\www\yii\framework\web\CController.php(869): slavaController->renderFile()
+#7 D:\Slava\Installation\wamp\www\yii\framework\web\CController.php(782): slavaController->renderPartial()
+#8 D:\Slava\Installation\wamp\www\yii\protected\controllers\SlavaController.php(89): slavaController->render()
+#9 D:\Slava\Installation\wamp\www\yii\framework\web\actions\CInlineAction.php(49): slavaController->actionWgt()
+#10 D:\Slava\Installation\wamp\www\yii\framework\web\CController.php(308): CInlineAction->runWithParams()
+#11 D:\Slava\Installation\wamp\www\yii\framework\web\filters\CFilterChain.php(133): slavaController->runAction()
+#12 D:\Slava\Installation\wamp\www\yii\framework\web\CController.php(291): CFilterChain->run()
+#13 D:\Slava\Installation\wamp\www\yii\framework\web\CController.php(265): slavaController->runActionWithFilters()
+#14 D:\Slava\Installation\wamp\www\yii\framework\web\CWebApplication.php(282): slavaController->run()
+#15 D:\Slava\Installation\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#16 D:\Slava\Installation\wamp\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#17 D:\Slava\Installation\wamp\www\yii\index.php(41): CWebApplication->run()
+REQUEST_URI=/yii/index.php?r=slava/wgt
+in D:\Slava\Installation\wamp\www\yii\protected\views\slava\forWgt.php (5)
+in D:\Slava\Installation\wamp\www\yii\protected\controllers\SlavaController.php (89)
+in D:\Slava\Installation\wamp\www\yii\index.php (41)
+2014/07/27 08:56:04 [error] [php] include(Mywidget.php): failed to open stream: No such file or directory (D:\Slava\Installation\wamp\www\yii\framework\YiiBase.php:427)
+Stack trace:
+#0 D:\Slava\Installation\wamp\www\yii\framework\web\CWidgetFactory.php(146): import()
+#1 D:\Slava\Installation\wamp\www\yii\framework\web\CBaseController.php(146): CWidgetFactory->createWidget()
+#2 D:\Slava\Installation\wamp\www\yii\framework\web\CBaseController.php(189): slavaController->createWidget()
+#3 D:\Slava\Installation\wamp\www\yii\protected\views\slava\forWgt.php(5): slavaController->beginWidget()
+#4 D:\Slava\Installation\wamp\www\yii\framework\web\CBaseController.php(126): require()
+#5 D:\Slava\Installation\wamp\www\yii\framework\web\CBaseController.php(95): slavaController->renderInternal()
+#6 D:\Slava\Installation\wamp\www\yii\framework\web\CController.php(869): slavaController->renderFile()
+#7 D:\Slava\Installation\wamp\www\yii\framework\web\CController.php(782): slavaController->renderPartial()
+#8 D:\Slava\Installation\wamp\www\yii\protected\controllers\SlavaController.php(89): slavaController->render()
+#9 D:\Slava\Installation\wamp\www\yii\framework\web\actions\CInlineAction.php(49): slavaController->actionWgt()
+#10 D:\Slava\Installation\wamp\www\yii\framework\web\CController.php(308): CInlineAction->runWithParams()
+#11 D:\Slava\Installation\wamp\www\yii\framework\web\filters\CFilterChain.php(133): slavaController->runAction()
+#12 D:\Slava\Installation\wamp\www\yii\framework\web\CController.php(291): CFilterChain->run()
+#13 D:\Slava\Installation\wamp\www\yii\framework\web\CController.php(265): slavaController->runActionWithFilters()
+#14 D:\Slava\Installation\wamp\www\yii\framework\web\CWebApplication.php(282): slavaController->run()
+#15 D:\Slava\Installation\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#16 D:\Slava\Installation\wamp\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#17 D:\Slava\Installation\wamp\www\yii\index.php(41): CWebApplication->run()
+REQUEST_URI=/yii/index.php?r=slava/wgt
+in D:\Slava\Installation\wamp\www\yii\protected\views\slava\forWgt.php (5)
+in D:\Slava\Installation\wamp\www\yii\protected\controllers\SlavaController.php (89)
+in D:\Slava\Installation\wamp\www\yii\index.php (41)
+2014/07/27 09:08:57 [error] [php] include(Mywidget.php): failed to open stream: No such file or directory (D:\Slava\Installation\wamp\www\yii\framework\YiiBase.php:427)
+Stack trace:
+#0 D:\Slava\Installation\wamp\www\yii\framework\web\CWidgetFactory.php(146): import()
+#1 D:\Slava\Installation\wamp\www\yii\framework\web\CBaseController.php(146): CWidgetFactory->createWidget()
+#2 D:\Slava\Installation\wamp\www\yii\framework\web\CBaseController.php(189): slavaController->createWidget()
+#3 D:\Slava\Installation\wamp\www\yii\protected\views\slava\forWgt.php(5): slavaController->beginWidget()
+#4 D:\Slava\Installation\wamp\www\yii\framework\web\CBaseController.php(126): require()
+#5 D:\Slava\Installation\wamp\www\yii\framework\web\CBaseController.php(95): slavaController->renderInternal()
+#6 D:\Slava\Installation\wamp\www\yii\framework\web\CController.php(869): slavaController->renderFile()
+#7 D:\Slava\Installation\wamp\www\yii\framework\web\CController.php(782): slavaController->renderPartial()
+#8 D:\Slava\Installation\wamp\www\yii\protected\controllers\SlavaController.php(89): slavaController->render()
+#9 D:\Slava\Installation\wamp\www\yii\framework\web\actions\CInlineAction.php(49): slavaController->actionWgt()
+#10 D:\Slava\Installation\wamp\www\yii\framework\web\CController.php(308): CInlineAction->runWithParams()
+#11 D:\Slava\Installation\wamp\www\yii\framework\web\filters\CFilterChain.php(133): slavaController->runAction()
+#12 D:\Slava\Installation\wamp\www\yii\framework\web\CController.php(291): CFilterChain->run()
+#13 D:\Slava\Installation\wamp\www\yii\framework\web\CController.php(265): slavaController->runActionWithFilters()
+#14 D:\Slava\Installation\wamp\www\yii\framework\web\CWebApplication.php(282): slavaController->run()
+#15 D:\Slava\Installation\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#16 D:\Slava\Installation\wamp\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#17 D:\Slava\Installation\wamp\www\yii\index.php(41): CWebApplication->run()
+REQUEST_URI=/yii/index.php?r=slava/wgt
+in D:\Slava\Installation\wamp\www\yii\protected\views\slava\forWgt.php (5)
+in D:\Slava\Installation\wamp\www\yii\protected\controllers\SlavaController.php (89)
+in D:\Slava\Installation\wamp\www\yii\index.php (41)
+2014/07/27 09:10:05 [error] [exception.CException] exception 'CException' with message 'MyWidget cannot find the view "".' in D:\Slava\Installation\wamp\www\yii\framework\web\widgets\CWidget.php:246
+Stack trace:
+#0 D:\Slava\Installation\wamp\www\yii\protected\components\MyWidget.php(15): CWidget->render('')
+#1 D:\Slava\Installation\wamp\www\yii\framework\web\CBaseController.php(206): MyWidget->run()
+#2 D:\Slava\Installation\wamp\www\yii\protected\views\slava\forWgt.php(6): CBaseController->endWidget()
+#3 D:\Slava\Installation\wamp\www\yii\framework\web\CBaseController.php(126): require('D:\Slava\Instal...')
+#4 D:\Slava\Installation\wamp\www\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('D:\Slava\Instal...', NULL, true)
+#5 D:\Slava\Installation\wamp\www\yii\framework\web\CController.php(869): CBaseController->renderFile('D:\Slava\Instal...', NULL, true)
+#6 D:\Slava\Installation\wamp\www\yii\framework\web\CController.php(782): CController->renderPartial('forWgt', NULL, true)
+#7 D:\Slava\Installation\wamp\www\yii\protected\controllers\SlavaController.php(89): CController->render('forWgt')
+#8 D:\Slava\Installation\wamp\www\yii\framework\web\actions\CInlineAction.php(49): slavaController->actionWgt()
+#9 D:\Slava\Installation\wamp\www\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#10 D:\Slava\Installation\wamp\www\yii\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#11 D:\Slava\Installation\wamp\www\yii\framework\web\CController.php(291): CFilterChain->run()
+#12 D:\Slava\Installation\wamp\www\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#13 D:\Slava\Installation\wamp\www\yii\framework\web\CWebApplication.php(282): CController->run('wgt')
+#14 D:\Slava\Installation\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('slava/wgt')
+#15 D:\Slava\Installation\wamp\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#16 D:\Slava\Installation\wamp\www\yii\index.php(41): CApplication->run()
+#17 {main}
+REQUEST_URI=/yii/index.php?r=slava/wgt
+---
+2014/07/27 09:10:56 [error] [exception.CException] exception 'CException' with message 'MyWidget cannot find the view "".' in D:\Slava\Installation\wamp\www\yii\framework\web\widgets\CWidget.php:246
+Stack trace:
+#0 D:\Slava\Installation\wamp\www\yii\protected\components\MyWidget.php(15): CWidget->render('')
+#1 D:\Slava\Installation\wamp\www\yii\framework\web\CBaseController.php(206): MyWidget->run()
+#2 D:\Slava\Installation\wamp\www\yii\protected\views\slava\forWgt.php(6): CBaseController->endWidget()
+#3 D:\Slava\Installation\wamp\www\yii\framework\web\CBaseController.php(126): require('D:\Slava\Instal...')
+#4 D:\Slava\Installation\wamp\www\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('D:\Slava\Instal...', NULL, true)
+#5 D:\Slava\Installation\wamp\www\yii\framework\web\CController.php(869): CBaseController->renderFile('D:\Slava\Instal...', NULL, true)
+#6 D:\Slava\Installation\wamp\www\yii\framework\web\CController.php(782): CController->renderPartial('forWgt', NULL, true)
+#7 D:\Slava\Installation\wamp\www\yii\protected\controllers\SlavaController.php(89): CController->render('forWgt')
+#8 D:\Slava\Installation\wamp\www\yii\framework\web\actions\CInlineAction.php(49): slavaController->actionWgt()
+#9 D:\Slava\Installation\wamp\www\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#10 D:\Slava\Installation\wamp\www\yii\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#11 D:\Slava\Installation\wamp\www\yii\framework\web\CController.php(291): CFilterChain->run()
+#12 D:\Slava\Installation\wamp\www\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#13 D:\Slava\Installation\wamp\www\yii\framework\web\CWebApplication.php(282): CController->run('wgt')
+#14 D:\Slava\Installation\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('slava/wgt')
+#15 D:\Slava\Installation\wamp\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#16 D:\Slava\Installation\wamp\www\yii\index.php(41): CApplication->run()
+#17 {main}
+REQUEST_URI=/yii/index.php?r=slava/wgt
+---
+2014/07/27 09:11:06 [error] [exception.CException] exception 'CException' with message 'MyWidget cannot find the view "".' in D:\Slava\Installation\wamp\www\yii\framework\web\widgets\CWidget.php:246
+Stack trace:
+#0 D:\Slava\Installation\wamp\www\yii\protected\components\MyWidget.php(15): CWidget->render('')
+#1 D:\Slava\Installation\wamp\www\yii\framework\web\CBaseController.php(206): MyWidget->run()
+#2 D:\Slava\Installation\wamp\www\yii\protected\views\slava\forWgt.php(6): CBaseController->endWidget()
+#3 D:\Slava\Installation\wamp\www\yii\framework\web\CBaseController.php(126): require('D:\Slava\Instal...')
+#4 D:\Slava\Installation\wamp\www\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('D:\Slava\Instal...', NULL, true)
+#5 D:\Slava\Installation\wamp\www\yii\framework\web\CController.php(869): CBaseController->renderFile('D:\Slava\Instal...', NULL, true)
+#6 D:\Slava\Installation\wamp\www\yii\framework\web\CController.php(782): CController->renderPartial('forWgt', NULL, true)
+#7 D:\Slava\Installation\wamp\www\yii\protected\controllers\SlavaController.php(89): CController->render('forWgt')
+#8 D:\Slava\Installation\wamp\www\yii\framework\web\actions\CInlineAction.php(49): slavaController->actionWgt()
+#9 D:\Slava\Installation\wamp\www\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#10 D:\Slava\Installation\wamp\www\yii\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#11 D:\Slava\Installation\wamp\www\yii\framework\web\CController.php(291): CFilterChain->run()
+#12 D:\Slava\Installation\wamp\www\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#13 D:\Slava\Installation\wamp\www\yii\framework\web\CWebApplication.php(282): CController->run('wgt')
+#14 D:\Slava\Installation\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('slava/wgt')
+#15 D:\Slava\Installation\wamp\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#16 D:\Slava\Installation\wamp\www\yii\index.php(41): CApplication->run()
+#17 {main}
+REQUEST_URI=/yii/index.php?r=slava/wgt
+---
+2014/07/27 09:11:08 [error] [exception.CException] exception 'CException' with message 'MyWidget cannot find the view "".' in D:\Slava\Installation\wamp\www\yii\framework\web\widgets\CWidget.php:246
+Stack trace:
+#0 D:\Slava\Installation\wamp\www\yii\protected\components\MyWidget.php(15): CWidget->render('')
+#1 D:\Slava\Installation\wamp\www\yii\framework\web\CBaseController.php(206): MyWidget->run()
+#2 D:\Slava\Installation\wamp\www\yii\protected\views\slava\forWgt.php(6): CBaseController->endWidget()
+#3 D:\Slava\Installation\wamp\www\yii\framework\web\CBaseController.php(126): require('D:\Slava\Instal...')
+#4 D:\Slava\Installation\wamp\www\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('D:\Slava\Instal...', NULL, true)
+#5 D:\Slava\Installation\wamp\www\yii\framework\web\CController.php(869): CBaseController->renderFile('D:\Slava\Instal...', NULL, true)
+#6 D:\Slava\Installation\wamp\www\yii\framework\web\CController.php(782): CController->renderPartial('forWgt', NULL, true)
+#7 D:\Slava\Installation\wamp\www\yii\protected\controllers\SlavaController.php(89): CController->render('forWgt')
+#8 D:\Slava\Installation\wamp\www\yii\framework\web\actions\CInlineAction.php(49): slavaController->actionWgt()
+#9 D:\Slava\Installation\wamp\www\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#10 D:\Slava\Installation\wamp\www\yii\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#11 D:\Slava\Installation\wamp\www\yii\framework\web\CController.php(291): CFilterChain->run()
+#12 D:\Slava\Installation\wamp\www\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#13 D:\Slava\Installation\wamp\www\yii\framework\web\CWebApplication.php(282): CController->run('wgt')
+#14 D:\Slava\Installation\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('slava/wgt')
+#15 D:\Slava\Installation\wamp\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#16 D:\Slava\Installation\wamp\www\yii\index.php(41): CApplication->run()
+#17 {main}
+REQUEST_URI=/yii/index.php?r=slava/wgt
+---
+2014/07/27 09:11:48 [error] [exception.CException] exception 'CException' with message 'MyWidget cannot find the view "".' in D:\Slava\Installation\wamp\www\yii\framework\web\widgets\CWidget.php:246
+Stack trace:
+#0 D:\Slava\Installation\wamp\www\yii\protected\components\MyWidget.php(15): CWidget->render('')
+#1 D:\Slava\Installation\wamp\www\yii\framework\web\CBaseController.php(206): MyWidget->run()
+#2 D:\Slava\Installation\wamp\www\yii\protected\views\slava\forWgt.php(6): CBaseController->endWidget()
+#3 D:\Slava\Installation\wamp\www\yii\framework\web\CBaseController.php(126): require('D:\Slava\Instal...')
+#4 D:\Slava\Installation\wamp\www\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('D:\Slava\Instal...', NULL, true)
+#5 D:\Slava\Installation\wamp\www\yii\framework\web\CController.php(869): CBaseController->renderFile('D:\Slava\Instal...', NULL, true)
+#6 D:\Slava\Installation\wamp\www\yii\framework\web\CController.php(782): CController->renderPartial('forWgt', NULL, true)
+#7 D:\Slava\Installation\wamp\www\yii\protected\controllers\SlavaController.php(89): CController->render('forWgt')
+#8 D:\Slava\Installation\wamp\www\yii\framework\web\actions\CInlineAction.php(49): slavaController->actionWgt()
+#9 D:\Slava\Installation\wamp\www\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#10 D:\Slava\Installation\wamp\www\yii\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#11 D:\Slava\Installation\wamp\www\yii\framework\web\CController.php(291): CFilterChain->run()
+#12 D:\Slava\Installation\wamp\www\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#13 D:\Slava\Installation\wamp\www\yii\framework\web\CWebApplication.php(282): CController->run('wgt')
+#14 D:\Slava\Installation\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('slava/wgt')
+#15 D:\Slava\Installation\wamp\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#16 D:\Slava\Installation\wamp\www\yii\index.php(41): CApplication->run()
+#17 {main}
+REQUEST_URI=/yii/index.php?r=slava/wgt
+---
+2014/07/27 09:13:16 [error] [exception.CException] exception 'CException' with message 'MyWidget cannot find the view "".' in D:\Slava\Installation\wamp\www\yii\framework\web\widgets\CWidget.php:246
+Stack trace:
+#0 D:\Slava\Installation\wamp\www\yii\protected\components\MyWidget.php(15): CWidget->render('')
+#1 D:\Slava\Installation\wamp\www\yii\framework\web\CBaseController.php(206): MyWidget->run()
+#2 D:\Slava\Installation\wamp\www\yii\protected\views\slava\forWgt.php(6): CBaseController->endWidget()
+#3 D:\Slava\Installation\wamp\www\yii\framework\web\CBaseController.php(126): require('D:\Slava\Instal...')
+#4 D:\Slava\Installation\wamp\www\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('D:\Slava\Instal...', NULL, true)
+#5 D:\Slava\Installation\wamp\www\yii\framework\web\CController.php(869): CBaseController->renderFile('D:\Slava\Instal...', NULL, true)
+#6 D:\Slava\Installation\wamp\www\yii\framework\web\CController.php(782): CController->renderPartial('forWgt', NULL, true)
+#7 D:\Slava\Installation\wamp\www\yii\protected\controllers\SlavaController.php(89): CController->render('forWgt')
+#8 D:\Slava\Installation\wamp\www\yii\framework\web\actions\CInlineAction.php(49): slavaController->actionWgt()
+#9 D:\Slava\Installation\wamp\www\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#10 D:\Slava\Installation\wamp\www\yii\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#11 D:\Slava\Installation\wamp\www\yii\framework\web\CController.php(291): CFilterChain->run()
+#12 D:\Slava\Installation\wamp\www\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#13 D:\Slava\Installation\wamp\www\yii\framework\web\CWebApplication.php(282): CController->run('Wgt')
+#14 D:\Slava\Installation\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('slava/Wgt')
+#15 D:\Slava\Installation\wamp\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#16 D:\Slava\Installation\wamp\www\yii\index.php(41): CApplication->run()
+#17 {main}
+REQUEST_URI=/yii/index.php?r=slava/Wgt
+---
+2014/07/27 09:13:56 [error] [exception.CException] exception 'CException' with message 'Property "slavaController.v" is not defined.' in D:\Slava\Installation\wamp\www\yii\framework\base\CComponent.php:130
+Stack trace:
+#0 xdebug://debug-eval(1): CComponent->__get('v')
+#1 D:\Slava\Installation\wamp\www\yii\protected\controllers\SlavaController.php(89): slavaController::actionWgt()
+#2 D:\Slava\Installation\wamp\www\yii\framework\web\actions\CInlineAction.php(49): slavaController->actionWgt()
+#3 D:\Slava\Installation\wamp\www\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#4 D:\Slava\Installation\wamp\www\yii\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#5 D:\Slava\Installation\wamp\www\yii\framework\web\CController.php(291): CFilterChain->run()
+#6 D:\Slava\Installation\wamp\www\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 D:\Slava\Installation\wamp\www\yii\framework\web\CWebApplication.php(282): CController->run('Wgt')
+#8 D:\Slava\Installation\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('slava/Wgt')
+#9 D:\Slava\Installation\wamp\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#10 D:\Slava\Installation\wamp\www\yii\index.php(41): CApplication->run()
+#11 {main}
+REQUEST_URI=/yii/index.php?r=slava/Wgt
+---
+2014/07/27 09:14:20 [error] [exception.CException] exception 'CException' with message 'Property "slavaController.v" is not defined.' in D:\Slava\Installation\wamp\www\yii\framework\base\CComponent.php:130
+Stack trace:
+#0 xdebug://debug-eval(1): CComponent->__get('v')
+#1 D:\Slava\Installation\wamp\www\yii\protected\controllers\SlavaController.php(89): slavaController::actionWgt()
+#2 D:\Slava\Installation\wamp\www\yii\framework\web\actions\CInlineAction.php(49): slavaController->actionWgt()
+#3 D:\Slava\Installation\wamp\www\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#4 D:\Slava\Installation\wamp\www\yii\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#5 D:\Slava\Installation\wamp\www\yii\framework\web\CController.php(291): CFilterChain->run()
+#6 D:\Slava\Installation\wamp\www\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 D:\Slava\Installation\wamp\www\yii\framework\web\CWebApplication.php(282): CController->run('wgt')
+#8 D:\Slava\Installation\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('slava/wgt')
+#9 D:\Slava\Installation\wamp\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#10 D:\Slava\Installation\wamp\www\yii\index.php(41): CApplication->run()
+#11 {main}
+REQUEST_URI=/yii/index.php?r=slava/wgt
+---
+2014/07/27 09:15:34 [error] [exception.CException] exception 'CException' with message 'Property "slavaController.v" is not defined.' in D:\Slava\Installation\wamp\www\yii\framework\base\CComponent.php:130
+Stack trace:
+#0 xdebug://debug-eval(1): CComponent->__get('v')
+#1 D:\Slava\Installation\wamp\www\yii\protected\controllers\SlavaController.php(89): slavaController::actionWgt()
+#2 D:\Slava\Installation\wamp\www\yii\framework\web\actions\CInlineAction.php(49): slavaController->actionWgt()
+#3 D:\Slava\Installation\wamp\www\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#4 D:\Slava\Installation\wamp\www\yii\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#5 D:\Slava\Installation\wamp\www\yii\framework\web\CController.php(291): CFilterChain->run()
+#6 D:\Slava\Installation\wamp\www\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 D:\Slava\Installation\wamp\www\yii\framework\web\CWebApplication.php(282): CController->run('wgt')
+#8 D:\Slava\Installation\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('slava/wgt')
+#9 D:\Slava\Installation\wamp\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#10 D:\Slava\Installation\wamp\www\yii\index.php(41): CApplication->run()
+#11 {main}
+REQUEST_URI=/yii/index.php?r=slava/wgt
+---
+2014/07/27 09:16:12 [error] [exception.CException] exception 'CException' with message 'Property "slavaController.v" is not defined.' in D:\Slava\Installation\wamp\www\yii\framework\base\CComponent.php:130
+Stack trace:
+#0 xdebug://debug-eval(1): CComponent->__get('v')
+#1 D:\Slava\Installation\wamp\www\yii\protected\controllers\SlavaController.php(89): slavaController::actionWgt()
+#2 D:\Slava\Installation\wamp\www\yii\framework\web\actions\CInlineAction.php(49): slavaController->actionWgt()
+#3 D:\Slava\Installation\wamp\www\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#4 D:\Slava\Installation\wamp\www\yii\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#5 D:\Slava\Installation\wamp\www\yii\framework\web\CController.php(291): CFilterChain->run()
+#6 D:\Slava\Installation\wamp\www\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 D:\Slava\Installation\wamp\www\yii\framework\web\CWebApplication.php(282): CController->run('Wgt')
+#8 D:\Slava\Installation\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('slava/Wgt')
+#9 D:\Slava\Installation\wamp\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#10 D:\Slava\Installation\wamp\www\yii\index.php(41): CApplication->run()
+#11 {main}
+REQUEST_URI=/yii/index.php?r=slava/Wgt
+---
+2014/07/27 09:16:16 [error] [exception.CException] exception 'CException' with message 'MyWidget cannot find the view "".' in D:\Slava\Installation\wamp\www\yii\framework\web\widgets\CWidget.php:246
+Stack trace:
+#0 D:\Slava\Installation\wamp\www\yii\protected\components\MyWidget.php(15): CWidget->render('')
+#1 D:\Slava\Installation\wamp\www\yii\framework\web\CBaseController.php(206): MyWidget->run()
+#2 D:\Slava\Installation\wamp\www\yii\protected\views\slava\forWgt.php(6): CBaseController->endWidget()
+#3 D:\Slava\Installation\wamp\www\yii\framework\web\CBaseController.php(126): require('D:\Slava\Instal...')
+#4 D:\Slava\Installation\wamp\www\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('D:\Slava\Instal...', NULL, true)
+#5 D:\Slava\Installation\wamp\www\yii\framework\web\CController.php(869): CBaseController->renderFile('D:\Slava\Instal...', NULL, true)
+#6 D:\Slava\Installation\wamp\www\yii\framework\web\CController.php(782): CController->renderPartial('forWgt', NULL, true)
+#7 D:\Slava\Installation\wamp\www\yii\protected\controllers\SlavaController.php(89): CController->render('forWgt')
+#8 D:\Slava\Installation\wamp\www\yii\framework\web\actions\CInlineAction.php(49): slavaController->actionWgt()
+#9 D:\Slava\Installation\wamp\www\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#10 D:\Slava\Installation\wamp\www\yii\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#11 D:\Slava\Installation\wamp\www\yii\framework\web\CController.php(291): CFilterChain->run()
+#12 D:\Slava\Installation\wamp\www\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#13 D:\Slava\Installation\wamp\www\yii\framework\web\CWebApplication.php(282): CController->run('Wgt')
+#14 D:\Slava\Installation\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('slava/Wgt')
+#15 D:\Slava\Installation\wamp\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#16 D:\Slava\Installation\wamp\www\yii\index.php(41): CApplication->run()
+#17 {main}
+REQUEST_URI=/yii/index.php?r=slava/Wgt
+---
+2014/07/27 09:16:23 [error] [exception.CException] exception 'CException' with message 'MyWidget cannot find the view "".' in D:\Slava\Installation\wamp\www\yii\framework\web\widgets\CWidget.php:246
+Stack trace:
+#0 D:\Slava\Installation\wamp\www\yii\protected\components\MyWidget.php(15): CWidget->render('')
+#1 D:\Slava\Installation\wamp\www\yii\framework\web\CBaseController.php(206): MyWidget->run()
+#2 D:\Slava\Installation\wamp\www\yii\protected\views\slava\forWgt.php(6): CBaseController->endWidget()
+#3 D:\Slava\Installation\wamp\www\yii\framework\web\CBaseController.php(126): require('D:\Slava\Instal...')
+#4 D:\Slava\Installation\wamp\www\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('D:\Slava\Instal...', NULL, true)
+#5 D:\Slava\Installation\wamp\www\yii\framework\web\CController.php(869): CBaseController->renderFile('D:\Slava\Instal...', NULL, true)
+#6 D:\Slava\Installation\wamp\www\yii\framework\web\CController.php(782): CController->renderPartial('forWgt', NULL, true)
+#7 D:\Slava\Installation\wamp\www\yii\protected\controllers\SlavaController.php(89): CController->render('forWgt')
+#8 D:\Slava\Installation\wamp\www\yii\framework\web\actions\CInlineAction.php(49): slavaController->actionWgt()
+#9 D:\Slava\Installation\wamp\www\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#10 D:\Slava\Installation\wamp\www\yii\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#11 D:\Slava\Installation\wamp\www\yii\framework\web\CController.php(291): CFilterChain->run()
+#12 D:\Slava\Installation\wamp\www\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#13 D:\Slava\Installation\wamp\www\yii\framework\web\CWebApplication.php(282): CController->run('Wgt')
+#14 D:\Slava\Installation\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('slava/Wgt')
+#15 D:\Slava\Installation\wamp\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#16 D:\Slava\Installation\wamp\www\yii\index.php(41): CApplication->run()
+#17 {main}
+REQUEST_URI=/yii/index.php?r=slava/Wgt
+---
+2014/07/27 09:16:31 [error] [exception.CException] exception 'CException' with message 'Property "slavaController.v" is not defined.' in D:\Slava\Installation\wamp\www\yii\framework\base\CComponent.php:130
+Stack trace:
+#0 xdebug://debug-eval(1): CComponent->__get('v')
+#1 D:\Slava\Installation\wamp\www\yii\protected\controllers\SlavaController.php(89): slavaController::actionWgt()
+#2 D:\Slava\Installation\wamp\www\yii\framework\web\actions\CInlineAction.php(49): slavaController->actionWgt()
+#3 D:\Slava\Installation\wamp\www\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#4 D:\Slava\Installation\wamp\www\yii\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#5 D:\Slava\Installation\wamp\www\yii\framework\web\CController.php(291): CFilterChain->run()
+#6 D:\Slava\Installation\wamp\www\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 D:\Slava\Installation\wamp\www\yii\framework\web\CWebApplication.php(282): CController->run('Wgt')
+#8 D:\Slava\Installation\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('slava/Wgt')
+#9 D:\Slava\Installation\wamp\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#10 D:\Slava\Installation\wamp\www\yii\index.php(41): CApplication->run()
+#11 {main}
+REQUEST_URI=/yii/index.php?r=slava/Wgt
+---
+2014/07/27 09:17:53 [error] [exception.CException] exception 'CException' with message 'Property "slavaController.v" is not defined.' in D:\Slava\Installation\wamp\www\yii\framework\base\CComponent.php:130
+Stack trace:
+#0 xdebug://debug-eval(1): CComponent->__get('v')
+#1 D:\Slava\Installation\wamp\www\yii\protected\controllers\SlavaController.php(89): slavaController::actionWgt()
+#2 D:\Slava\Installation\wamp\www\yii\framework\web\actions\CInlineAction.php(49): slavaController->actionWgt()
+#3 D:\Slava\Installation\wamp\www\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#4 D:\Slava\Installation\wamp\www\yii\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#5 D:\Slava\Installation\wamp\www\yii\framework\web\CController.php(291): CFilterChain->run()
+#6 D:\Slava\Installation\wamp\www\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 D:\Slava\Installation\wamp\www\yii\framework\web\CWebApplication.php(282): CController->run('Wgt')
+#8 D:\Slava\Installation\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('slava/Wgt')
+#9 D:\Slava\Installation\wamp\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#10 D:\Slava\Installation\wamp\www\yii\index.php(41): CApplication->run()
+#11 {main}
+REQUEST_URI=/yii/index.php?r=slava/Wgt
+---
+2014/07/27 09:18:13 [error] [exception.CException] exception 'CException' with message 'MyWidget cannot find the view "".' in D:\Slava\Installation\wamp\www\yii\framework\web\widgets\CWidget.php:246
+Stack trace:
+#0 D:\Slava\Installation\wamp\www\yii\protected\components\MyWidget.php(15): CWidget->render('')
+#1 D:\Slava\Installation\wamp\www\yii\framework\web\CBaseController.php(206): MyWidget->run()
+#2 D:\Slava\Installation\wamp\www\yii\protected\views\slava\forWgt.php(6): CBaseController->endWidget()
+#3 D:\Slava\Installation\wamp\www\yii\framework\web\CBaseController.php(126): require('D:\Slava\Instal...')
+#4 D:\Slava\Installation\wamp\www\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('D:\Slava\Instal...', NULL, true)
+#5 D:\Slava\Installation\wamp\www\yii\framework\web\CController.php(869): CBaseController->renderFile('D:\Slava\Instal...', NULL, true)
+#6 D:\Slava\Installation\wamp\www\yii\framework\web\CController.php(782): CController->renderPartial('forWgt', NULL, true)
+#7 D:\Slava\Installation\wamp\www\yii\protected\controllers\SlavaController.php(89): CController->render('forWgt')
+#8 D:\Slava\Installation\wamp\www\yii\framework\web\actions\CInlineAction.php(49): slavaController->actionWgt()
+#9 D:\Slava\Installation\wamp\www\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#10 D:\Slava\Installation\wamp\www\yii\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#11 D:\Slava\Installation\wamp\www\yii\framework\web\CController.php(291): CFilterChain->run()
+#12 D:\Slava\Installation\wamp\www\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#13 D:\Slava\Installation\wamp\www\yii\framework\web\CWebApplication.php(282): CController->run('Wgt')
+#14 D:\Slava\Installation\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('slava/Wgt')
+#15 D:\Slava\Installation\wamp\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#16 D:\Slava\Installation\wamp\www\yii\index.php(41): CApplication->run()
+#17 {main}
+REQUEST_URI=/yii/index.php?r=slava/Wgt
+---
+2014/07/27 09:21:12 [error] [exception.CException] exception 'CException' with message 'MyWidget cannot find the view "".' in D:\Slava\Installation\wamp\www\yii\framework\web\widgets\CWidget.php:246
+Stack trace:
+#0 D:\Slava\Installation\wamp\www\yii\protected\components\MyWidget.php(15): CWidget->render('')
+#1 D:\Slava\Installation\wamp\www\yii\framework\web\CBaseController.php(206): MyWidget->run()
+#2 D:\Slava\Installation\wamp\www\yii\protected\views\slava\forWgt.php(6): CBaseController->endWidget()
+#3 D:\Slava\Installation\wamp\www\yii\framework\web\CBaseController.php(126): require('D:\Slava\Instal...')
+#4 D:\Slava\Installation\wamp\www\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('D:\Slava\Instal...', NULL, true)
+#5 D:\Slava\Installation\wamp\www\yii\framework\web\CController.php(869): CBaseController->renderFile('D:\Slava\Instal...', NULL, true)
+#6 D:\Slava\Installation\wamp\www\yii\framework\web\CController.php(782): CController->renderPartial('forWgt', NULL, true)
+#7 D:\Slava\Installation\wamp\www\yii\protected\controllers\SlavaController.php(89): CController->render('forWgt')
+#8 D:\Slava\Installation\wamp\www\yii\framework\web\actions\CInlineAction.php(49): slavaController->actionWgt()
+#9 D:\Slava\Installation\wamp\www\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#10 D:\Slava\Installation\wamp\www\yii\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#11 D:\Slava\Installation\wamp\www\yii\framework\web\CController.php(291): CFilterChain->run()
+#12 D:\Slava\Installation\wamp\www\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#13 D:\Slava\Installation\wamp\www\yii\framework\web\CWebApplication.php(282): CController->run('Wgt')
+#14 D:\Slava\Installation\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('slava/Wgt')
+#15 D:\Slava\Installation\wamp\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#16 D:\Slava\Installation\wamp\www\yii\index.php(41): CApplication->run()
+#17 {main}
+REQUEST_URI=/yii/index.php?r=slava/Wgt
+---
+2014/07/27 09:21:38 [error] [exception.CException] exception 'CException' with message 'MyWidget cannot find the view "".' in D:\Slava\Installation\wamp\www\yii\framework\web\widgets\CWidget.php:246
+Stack trace:
+#0 D:\Slava\Installation\wamp\www\yii\protected\components\MyWidget.php(15): CWidget->render('')
+#1 D:\Slava\Installation\wamp\www\yii\framework\web\CBaseController.php(206): MyWidget->run()
+#2 D:\Slava\Installation\wamp\www\yii\protected\views\slava\forWgt.php(6): CBaseController->endWidget()
+#3 D:\Slava\Installation\wamp\www\yii\framework\web\CBaseController.php(126): require('D:\Slava\Instal...')
+#4 D:\Slava\Installation\wamp\www\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('D:\Slava\Instal...', NULL, true)
+#5 D:\Slava\Installation\wamp\www\yii\framework\web\CController.php(869): CBaseController->renderFile('D:\Slava\Instal...', NULL, true)
+#6 D:\Slava\Installation\wamp\www\yii\framework\web\CController.php(782): CController->renderPartial('forWgt', NULL, true)
+#7 D:\Slava\Installation\wamp\www\yii\protected\controllers\SlavaController.php(89): CController->render('forWgt')
+#8 D:\Slava\Installation\wamp\www\yii\framework\web\actions\CInlineAction.php(49): slavaController->actionWgt()
+#9 D:\Slava\Installation\wamp\www\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#10 D:\Slava\Installation\wamp\www\yii\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#11 D:\Slava\Installation\wamp\www\yii\framework\web\CController.php(291): CFilterChain->run()
+#12 D:\Slava\Installation\wamp\www\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#13 D:\Slava\Installation\wamp\www\yii\framework\web\CWebApplication.php(282): CController->run('Wgt')
+#14 D:\Slava\Installation\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('slava/Wgt')
+#15 D:\Slava\Installation\wamp\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#16 D:\Slava\Installation\wamp\www\yii\index.php(41): CApplication->run()
+#17 {main}
+REQUEST_URI=/yii/index.php?r=slava/Wgt
+---
+2014/07/27 09:21:40 [error] [exception.CException] exception 'CException' with message 'MyWidget cannot find the view "".' in D:\Slava\Installation\wamp\www\yii\framework\web\widgets\CWidget.php:246
+Stack trace:
+#0 D:\Slava\Installation\wamp\www\yii\protected\components\MyWidget.php(15): CWidget->render('')
+#1 D:\Slava\Installation\wamp\www\yii\framework\web\CBaseController.php(206): MyWidget->run()
+#2 D:\Slava\Installation\wamp\www\yii\protected\views\slava\forWgt.php(6): CBaseController->endWidget()
+#3 D:\Slava\Installation\wamp\www\yii\framework\web\CBaseController.php(126): require('D:\Slava\Instal...')
+#4 D:\Slava\Installation\wamp\www\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('D:\Slava\Instal...', NULL, true)
+#5 D:\Slava\Installation\wamp\www\yii\framework\web\CController.php(869): CBaseController->renderFile('D:\Slava\Instal...', NULL, true)
+#6 D:\Slava\Installation\wamp\www\yii\framework\web\CController.php(782): CController->renderPartial('forWgt', NULL, true)
+#7 D:\Slava\Installation\wamp\www\yii\protected\controllers\SlavaController.php(89): CController->render('forWgt')
+#8 D:\Slava\Installation\wamp\www\yii\framework\web\actions\CInlineAction.php(49): slavaController->actionWgt()
+#9 D:\Slava\Installation\wamp\www\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#10 D:\Slava\Installation\wamp\www\yii\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#11 D:\Slava\Installation\wamp\www\yii\framework\web\CController.php(291): CFilterChain->run()
+#12 D:\Slava\Installation\wamp\www\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#13 D:\Slava\Installation\wamp\www\yii\framework\web\CWebApplication.php(282): CController->run('Wgt')
+#14 D:\Slava\Installation\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('slava/Wgt')
+#15 D:\Slava\Installation\wamp\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#16 D:\Slava\Installation\wamp\www\yii\index.php(41): CApplication->run()
+#17 {main}
+REQUEST_URI=/yii/index.php?r=slava/Wgt
+---
+2014/07/27 09:21:41 [error] [exception.CException] exception 'CException' with message 'MyWidget cannot find the view "".' in D:\Slava\Installation\wamp\www\yii\framework\web\widgets\CWidget.php:246
+Stack trace:
+#0 D:\Slava\Installation\wamp\www\yii\protected\components\MyWidget.php(15): CWidget->render('')
+#1 D:\Slava\Installation\wamp\www\yii\framework\web\CBaseController.php(206): MyWidget->run()
+#2 D:\Slava\Installation\wamp\www\yii\protected\views\slava\forWgt.php(6): CBaseController->endWidget()
+#3 D:\Slava\Installation\wamp\www\yii\framework\web\CBaseController.php(126): require('D:\Slava\Instal...')
+#4 D:\Slava\Installation\wamp\www\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('D:\Slava\Instal...', NULL, true)
+#5 D:\Slava\Installation\wamp\www\yii\framework\web\CController.php(869): CBaseController->renderFile('D:\Slava\Instal...', NULL, true)
+#6 D:\Slava\Installation\wamp\www\yii\framework\web\CController.php(782): CController->renderPartial('forWgt', NULL, true)
+#7 D:\Slava\Installation\wamp\www\yii\protected\controllers\SlavaController.php(89): CController->render('forWgt')
+#8 D:\Slava\Installation\wamp\www\yii\framework\web\actions\CInlineAction.php(49): slavaController->actionWgt()
+#9 D:\Slava\Installation\wamp\www\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#10 D:\Slava\Installation\wamp\www\yii\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#11 D:\Slava\Installation\wamp\www\yii\framework\web\CController.php(291): CFilterChain->run()
+#12 D:\Slava\Installation\wamp\www\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#13 D:\Slava\Installation\wamp\www\yii\framework\web\CWebApplication.php(282): CController->run('Wgt')
+#14 D:\Slava\Installation\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('slava/Wgt')
+#15 D:\Slava\Installation\wamp\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#16 D:\Slava\Installation\wamp\www\yii\index.php(41): CApplication->run()
+#17 {main}
+REQUEST_URI=/yii/index.php?r=slava/Wgt
+---
+2014/07/27 09:22:27 [error] [exception.CException] exception 'CException' with message 'MyWidget cannot find the view "".' in D:\Slava\Installation\wamp\www\yii\framework\web\widgets\CWidget.php:246
+Stack trace:
+#0 D:\Slava\Installation\wamp\www\yii\protected\components\MyWidget.php(15): CWidget->render('')
+#1 D:\Slava\Installation\wamp\www\yii\framework\web\CBaseController.php(206): MyWidget->run()
+#2 D:\Slava\Installation\wamp\www\yii\protected\views\slava\forWgt.php(6): CBaseController->endWidget()
+#3 D:\Slava\Installation\wamp\www\yii\framework\web\CBaseController.php(126): require('D:\Slava\Instal...')
+#4 D:\Slava\Installation\wamp\www\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('D:\Slava\Instal...', NULL, true)
+#5 D:\Slava\Installation\wamp\www\yii\framework\web\CController.php(869): CBaseController->renderFile('D:\Slava\Instal...', NULL, true)
+#6 D:\Slava\Installation\wamp\www\yii\framework\web\CController.php(782): CController->renderPartial('forWgt', NULL, true)
+#7 D:\Slava\Installation\wamp\www\yii\protected\controllers\SlavaController.php(89): CController->render('forWgt')
+#8 D:\Slava\Installation\wamp\www\yii\framework\web\actions\CInlineAction.php(49): slavaController->actionWgt()
+#9 D:\Slava\Installation\wamp\www\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#10 D:\Slava\Installation\wamp\www\yii\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#11 D:\Slava\Installation\wamp\www\yii\framework\web\CController.php(291): CFilterChain->run()
+#12 D:\Slava\Installation\wamp\www\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#13 D:\Slava\Installation\wamp\www\yii\framework\web\CWebApplication.php(282): CController->run('Wgt')
+#14 D:\Slava\Installation\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('slava/Wgt')
+#15 D:\Slava\Installation\wamp\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#16 D:\Slava\Installation\wamp\www\yii\index.php(41): CApplication->run()
+#17 {main}
+REQUEST_URI=/yii/index.php?r=slava/Wgt
+---
+2014/07/27 09:22:29 [error] [exception.CException] exception 'CException' with message 'MyWidget cannot find the view "".' in D:\Slava\Installation\wamp\www\yii\framework\web\widgets\CWidget.php:246
+Stack trace:
+#0 D:\Slava\Installation\wamp\www\yii\protected\components\MyWidget.php(15): CWidget->render('')
+#1 D:\Slava\Installation\wamp\www\yii\framework\web\CBaseController.php(206): MyWidget->run()
+#2 D:\Slava\Installation\wamp\www\yii\protected\views\slava\forWgt.php(6): CBaseController->endWidget()
+#3 D:\Slava\Installation\wamp\www\yii\framework\web\CBaseController.php(126): require('D:\Slava\Instal...')
+#4 D:\Slava\Installation\wamp\www\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('D:\Slava\Instal...', NULL, true)
+#5 D:\Slava\Installation\wamp\www\yii\framework\web\CController.php(869): CBaseController->renderFile('D:\Slava\Instal...', NULL, true)
+#6 D:\Slava\Installation\wamp\www\yii\framework\web\CController.php(782): CController->renderPartial('forWgt', NULL, true)
+#7 D:\Slava\Installation\wamp\www\yii\protected\controllers\SlavaController.php(89): CController->render('forWgt')
+#8 D:\Slava\Installation\wamp\www\yii\framework\web\actions\CInlineAction.php(49): slavaController->actionWgt()
+#9 D:\Slava\Installation\wamp\www\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#10 D:\Slava\Installation\wamp\www\yii\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#11 D:\Slava\Installation\wamp\www\yii\framework\web\CController.php(291): CFilterChain->run()
+#12 D:\Slava\Installation\wamp\www\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#13 D:\Slava\Installation\wamp\www\yii\framework\web\CWebApplication.php(282): CController->run('Wgt')
+#14 D:\Slava\Installation\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('slava/Wgt')
+#15 D:\Slava\Installation\wamp\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#16 D:\Slava\Installation\wamp\www\yii\index.php(41): CApplication->run()
+#17 {main}
+REQUEST_URI=/yii/index.php?r=slava/Wgt
+---
+2014/07/27 09:23:05 [error] [exception.CException] exception 'CException' with message 'MyWidget cannot find the view "".' in D:\Slava\Installation\wamp\www\yii\framework\web\widgets\CWidget.php:246
+Stack trace:
+#0 D:\Slava\Installation\wamp\www\yii\protected\components\MyWidget.php(15): CWidget->render('')
+#1 D:\Slava\Installation\wamp\www\yii\framework\web\CBaseController.php(206): MyWidget->run()
+#2 D:\Slava\Installation\wamp\www\yii\protected\views\slava\forWgt.php(6): CBaseController->endWidget()
+#3 D:\Slava\Installation\wamp\www\yii\framework\web\CBaseController.php(126): require('D:\Slava\Instal...')
+#4 D:\Slava\Installation\wamp\www\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('D:\Slava\Instal...', NULL, true)
+#5 D:\Slava\Installation\wamp\www\yii\framework\web\CController.php(869): CBaseController->renderFile('D:\Slava\Instal...', NULL, true)
+#6 D:\Slava\Installation\wamp\www\yii\framework\web\CController.php(782): CController->renderPartial('forWgt', NULL, true)
+#7 D:\Slava\Installation\wamp\www\yii\protected\controllers\SlavaController.php(89): CController->render('forWgt')
+#8 D:\Slava\Installation\wamp\www\yii\framework\web\actions\CInlineAction.php(49): slavaController->actionWgt()
+#9 D:\Slava\Installation\wamp\www\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#10 D:\Slava\Installation\wamp\www\yii\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#11 D:\Slava\Installation\wamp\www\yii\framework\web\CController.php(291): CFilterChain->run()
+#12 D:\Slava\Installation\wamp\www\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#13 D:\Slava\Installation\wamp\www\yii\framework\web\CWebApplication.php(282): CController->run('Wgt')
+#14 D:\Slava\Installation\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('slava/Wgt')
+#15 D:\Slava\Installation\wamp\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#16 D:\Slava\Installation\wamp\www\yii\index.php(41): CApplication->run()
+#17 {main}
+REQUEST_URI=/yii/index.php?r=slava/Wgt
+---
+2014/07/27 09:23:07 [error] [exception.CException] exception 'CException' with message 'MyWidget cannot find the view "".' in D:\Slava\Installation\wamp\www\yii\framework\web\widgets\CWidget.php:246
+Stack trace:
+#0 D:\Slava\Installation\wamp\www\yii\protected\components\MyWidget.php(15): CWidget->render('')
+#1 D:\Slava\Installation\wamp\www\yii\framework\web\CBaseController.php(206): MyWidget->run()
+#2 D:\Slava\Installation\wamp\www\yii\protected\views\slava\forWgt.php(6): CBaseController->endWidget()
+#3 D:\Slava\Installation\wamp\www\yii\framework\web\CBaseController.php(126): require('D:\Slava\Instal...')
+#4 D:\Slava\Installation\wamp\www\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('D:\Slava\Instal...', NULL, true)
+#5 D:\Slava\Installation\wamp\www\yii\framework\web\CController.php(869): CBaseController->renderFile('D:\Slava\Instal...', NULL, true)
+#6 D:\Slava\Installation\wamp\www\yii\framework\web\CController.php(782): CController->renderPartial('forWgt', NULL, true)
+#7 D:\Slava\Installation\wamp\www\yii\protected\controllers\SlavaController.php(89): CController->render('forWgt')
+#8 D:\Slava\Installation\wamp\www\yii\framework\web\actions\CInlineAction.php(49): slavaController->actionWgt()
+#9 D:\Slava\Installation\wamp\www\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#10 D:\Slava\Installation\wamp\www\yii\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#11 D:\Slava\Installation\wamp\www\yii\framework\web\CController.php(291): CFilterChain->run()
+#12 D:\Slava\Installation\wamp\www\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#13 D:\Slava\Installation\wamp\www\yii\framework\web\CWebApplication.php(282): CController->run('Wgt')
+#14 D:\Slava\Installation\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('slava/Wgt')
+#15 D:\Slava\Installation\wamp\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#16 D:\Slava\Installation\wamp\www\yii\index.php(41): CApplication->run()
+#17 {main}
+REQUEST_URI=/yii/index.php?r=slava/Wgt
+---
+2014/07/27 09:24:07 [error] [exception.CException] exception 'CException' with message 'MyWidget cannot find the view "viewForWiget".' in D:\Slava\Installation\wamp\www\yii\framework\web\widgets\CWidget.php:246
+Stack trace:
+#0 D:\Slava\Installation\wamp\www\yii\protected\components\MyWidget.php(15): CWidget->render('viewForWiget')
+#1 D:\Slava\Installation\wamp\www\yii\framework\web\CBaseController.php(206): MyWidget->run()
+#2 D:\Slava\Installation\wamp\www\yii\protected\views\slava\forWgt.php(6): CBaseController->endWidget()
+#3 D:\Slava\Installation\wamp\www\yii\framework\web\CBaseController.php(126): require('D:\Slava\Instal...')
+#4 D:\Slava\Installation\wamp\www\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('D:\Slava\Instal...', NULL, true)
+#5 D:\Slava\Installation\wamp\www\yii\framework\web\CController.php(869): CBaseController->renderFile('D:\Slava\Instal...', NULL, true)
+#6 D:\Slava\Installation\wamp\www\yii\framework\web\CController.php(782): CController->renderPartial('forWgt', NULL, true)
+#7 D:\Slava\Installation\wamp\www\yii\protected\controllers\SlavaController.php(89): CController->render('forWgt')
+#8 D:\Slava\Installation\wamp\www\yii\framework\web\actions\CInlineAction.php(49): slavaController->actionWgt()
+#9 D:\Slava\Installation\wamp\www\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#10 D:\Slava\Installation\wamp\www\yii\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#11 D:\Slava\Installation\wamp\www\yii\framework\web\CController.php(291): CFilterChain->run()
+#12 D:\Slava\Installation\wamp\www\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#13 D:\Slava\Installation\wamp\www\yii\framework\web\CWebApplication.php(282): CController->run('Wgt')
+#14 D:\Slava\Installation\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('slava/Wgt')
+#15 D:\Slava\Installation\wamp\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#16 D:\Slava\Installation\wamp\www\yii\index.php(41): CApplication->run()
+#17 {main}
+REQUEST_URI=/yii/index.php?r=slava/Wgt
+---
+2014/07/27 09:24:34 [error] [exception.CException] exception 'CException' with message 'MyWidget cannot find the view "viewForWiget".' in D:\Slava\Installation\wamp\www\yii\framework\web\widgets\CWidget.php:246
+Stack trace:
+#0 D:\Slava\Installation\wamp\www\yii\protected\components\MyWidget.php(15): CWidget->render('viewForWiget')
+#1 D:\Slava\Installation\wamp\www\yii\framework\web\CBaseController.php(206): MyWidget->run()
+#2 D:\Slava\Installation\wamp\www\yii\protected\views\slava\forWgt.php(6): CBaseController->endWidget()
+#3 D:\Slava\Installation\wamp\www\yii\framework\web\CBaseController.php(126): require('D:\Slava\Instal...')
+#4 D:\Slava\Installation\wamp\www\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('D:\Slava\Instal...', NULL, true)
+#5 D:\Slava\Installation\wamp\www\yii\framework\web\CController.php(869): CBaseController->renderFile('D:\Slava\Instal...', NULL, true)
+#6 D:\Slava\Installation\wamp\www\yii\framework\web\CController.php(782): CController->renderPartial('forWgt', NULL, true)
+#7 D:\Slava\Installation\wamp\www\yii\protected\controllers\SlavaController.php(89): CController->render('forWgt')
+#8 D:\Slava\Installation\wamp\www\yii\framework\web\actions\CInlineAction.php(49): slavaController->actionWgt()
+#9 D:\Slava\Installation\wamp\www\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#10 D:\Slava\Installation\wamp\www\yii\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#11 D:\Slava\Installation\wamp\www\yii\framework\web\CController.php(291): CFilterChain->run()
+#12 D:\Slava\Installation\wamp\www\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#13 D:\Slava\Installation\wamp\www\yii\framework\web\CWebApplication.php(282): CController->run('Wgt')
+#14 D:\Slava\Installation\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('slava/Wgt')
+#15 D:\Slava\Installation\wamp\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#16 D:\Slava\Installation\wamp\www\yii\index.php(41): CApplication->run()
+#17 {main}
+REQUEST_URI=/yii/index.php?r=slava/Wgt
+---
+2014/07/27 09:40:50 [error] [php] include(forWgt.php): failed to open stream: No such file or directory (D:\Slava\Installation\wamp\www\yii\framework\YiiBase.php:427)
+Stack trace:
+#0 D:\Slava\Installation\wamp\www\yii\framework\web\CWidgetFactory.php(146): import()
+#1 D:\Slava\Installation\wamp\www\yii\framework\web\CBaseController.php(146): CWidgetFactory->createWidget()
+#2 D:\Slava\Installation\wamp\www\yii\framework\web\CBaseController.php(189): slavaController->createWidget()
+#3 D:\Slava\Installation\wamp\www\yii\protected\controllers\SlavaController.php(90): slavaController->beginWidget()
+#4 D:\Slava\Installation\wamp\www\yii\framework\web\actions\CInlineAction.php(49): slavaController->actionWgt()
+#5 D:\Slava\Installation\wamp\www\yii\framework\web\CController.php(308): CInlineAction->runWithParams()
+#6 D:\Slava\Installation\wamp\www\yii\framework\web\filters\CFilterChain.php(133): slavaController->runAction()
+#7 D:\Slava\Installation\wamp\www\yii\framework\web\CController.php(291): CFilterChain->run()
+#8 D:\Slava\Installation\wamp\www\yii\framework\web\CController.php(265): slavaController->runActionWithFilters()
+#9 D:\Slava\Installation\wamp\www\yii\framework\web\CWebApplication.php(282): slavaController->run()
+#10 D:\Slava\Installation\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#11 D:\Slava\Installation\wamp\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#12 D:\Slava\Installation\wamp\www\yii\index.php(41): CWebApplication->run()
+REQUEST_URI=/yii/index.php?r=slava/Wgt
+in D:\Slava\Installation\wamp\www\yii\protected\controllers\SlavaController.php (90)
+in D:\Slava\Installation\wamp\www\yii\index.php (41)
+2014/07/27 09:53:29 [error] [exception.CException] exception 'CException' with message 'Property "slavaController.v" is not defined.' in D:\Slava\Installation\wamp\www\yii\framework\base\CComponent.php:130
+Stack trace:
+#0 xdebug://debug-eval(1): CComponent->__get('v')
+#1 D:\Slava\Installation\wamp\www\yii\protected\controllers\SlavaController.php(90): slavaController::actionWgt()
+#2 D:\Slava\Installation\wamp\www\yii\framework\web\actions\CInlineAction.php(49): slavaController->actionWgt()
+#3 D:\Slava\Installation\wamp\www\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#4 D:\Slava\Installation\wamp\www\yii\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#5 D:\Slava\Installation\wamp\www\yii\framework\web\CController.php(291): CFilterChain->run()
+#6 D:\Slava\Installation\wamp\www\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 D:\Slava\Installation\wamp\www\yii\framework\web\CWebApplication.php(282): CController->run('Wgt')
+#8 D:\Slava\Installation\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('slava/Wgt')
+#9 D:\Slava\Installation\wamp\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#10 D:\Slava\Installation\wamp\www\yii\index.php(41): CApplication->run()
+#11 {main}
+REQUEST_URI=/yii/index.php?r=slava/Wgt
+---
+2014/07/27 11:51:55 [error] [exception.CException] exception 'CException' with message 'MyWidget cannot find the view "application.slava.myview".' in D:\Slava\Installation\wamp\www\yii\framework\web\widgets\CWidget.php:246
+Stack trace:
+#0 D:\Slava\Installation\wamp\www\yii\protected\widgets\MyWidget\MyWidget.php(10): CWidget->render('application.sla...')
+#1 D:\Slava\Installation\wamp\www\yii\framework\web\CBaseController.php(206): MyWidget->run()
+#2 D:\Slava\Installation\wamp\www\yii\protected\controllers\SlavaController.php(104): CBaseController->endWidget()
+#3 D:\Slava\Installation\wamp\www\yii\framework\web\actions\CInlineAction.php(49): slavaController->actionWgt()
+#4 D:\Slava\Installation\wamp\www\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#5 D:\Slava\Installation\wamp\www\yii\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#6 D:\Slava\Installation\wamp\www\yii\framework\web\CController.php(291): CFilterChain->run()
+#7 D:\Slava\Installation\wamp\www\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 D:\Slava\Installation\wamp\www\yii\framework\web\CWebApplication.php(282): CController->run('Wgt')
+#9 D:\Slava\Installation\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('slava/Wgt')
+#10 D:\Slava\Installation\wamp\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#11 D:\Slava\Installation\wamp\www\yii\index.php(41): CApplication->run()
+#12 {main}
+REQUEST_URI=/yii/index.php?r=slava/Wgt
+---
+2014/07/27 12:04:32 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "ShowMyViews".' in D:\Slava\Installation\wamp\www\yii\framework\web\CController.php:483
+Stack trace:
+#0 D:\Slava\Installation\wamp\www\yii\framework\web\CController.php(270): CController->missingAction('ShowMyViews')
+#1 D:\Slava\Installation\wamp\www\yii\framework\web\CWebApplication.php(282): CController->run('ShowMyViews')
+#2 D:\Slava\Installation\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('slava/ShowMyVie...')
+#3 D:\Slava\Installation\wamp\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 D:\Slava\Installation\wamp\www\yii\index.php(41): CApplication->run()
+#5 {main}
+REQUEST_URI=/yii/?r=slava/ShowMyViews
+---
+2014/07/27 12:06:12 [error] [exception.CException] exception 'CException' with message 'Property "slavaController.v" is not defined.' in D:\Slava\Installation\wamp\www\yii\framework\base\CComponent.php:130
+Stack trace:
+#0 xdebug://debug-eval(1): CComponent->__get('v')
+#1 D:\Slava\Installation\wamp\www\yii\protected\views\slava\myView.php(3): unknown()
+#2 D:\Slava\Installation\wamp\www\yii\framework\web\CBaseController.php(126): require('D:\Slava\Instal...')
+#3 D:\Slava\Installation\wamp\www\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('D:\Slava\Instal...', Array, true)
+#4 D:\Slava\Installation\wamp\www\yii\framework\web\CController.php(869): CBaseController->renderFile('D:\Slava\Instal...', Array, true)
+#5 D:\Slava\Installation\wamp\www\yii\framework\web\CController.php(782): CController->renderPartial('myView', Array, true)
+#6 D:\Slava\Installation\wamp\www\yii\protected\controllers\SlavaController.php(80): CController->render('myView', Array)
+#7 D:\Slava\Installation\wamp\www\yii\framework\web\actions\CInlineAction.php(49): slavaController->actionShowMyView()
+#8 D:\Slava\Installation\wamp\www\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#9 D:\Slava\Installation\wamp\www\yii\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#10 D:\Slava\Installation\wamp\www\yii\framework\web\CController.php(291): CFilterChain->run()
+#11 D:\Slava\Installation\wamp\www\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 D:\Slava\Installation\wamp\www\yii\framework\web\CWebApplication.php(282): CController->run('ShowMyView')
+#13 D:\Slava\Installation\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('slava/ShowMyVie...')
+#14 D:\Slava\Installation\wamp\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#15 D:\Slava\Installation\wamp\www\yii\index.php(41): CApplication->run()
+#16 {main}
+REQUEST_URI=/yii/?r=slava/ShowMyView
+---
+2014/07/27 12:09:01 [error] [exception.CException] exception 'CException' with message 'Property "slavaController.v" is not defined.' in D:\Slava\Installation\wamp\www\yii\framework\base\CComponent.php:130
+Stack trace:
+#0 xdebug://debug-eval(1): CComponent->__get('v')
+#1 D:\Slava\Installation\wamp\www\yii\protected\views\slava\myView.php(3): unknown()
+#2 D:\Slava\Installation\wamp\www\yii\framework\web\CBaseController.php(126): require('D:\Slava\Instal...')
+#3 D:\Slava\Installation\wamp\www\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('D:\Slava\Instal...', Array, true)
+#4 D:\Slava\Installation\wamp\www\yii\framework\web\CController.php(869): CBaseController->renderFile('D:\Slava\Instal...', Array, true)
+#5 D:\Slava\Installation\wamp\www\yii\framework\web\CController.php(782): CController->renderPartial('myView', Array, true)
+#6 D:\Slava\Installation\wamp\www\yii\protected\controllers\SlavaController.php(80): CController->render('myView', Array)
+#7 D:\Slava\Installation\wamp\www\yii\framework\web\actions\CInlineAction.php(49): slavaController->actionShowMyView()
+#8 D:\Slava\Installation\wamp\www\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#9 D:\Slava\Installation\wamp\www\yii\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#10 D:\Slava\Installation\wamp\www\yii\framework\web\CController.php(291): CFilterChain->run()
+#11 D:\Slava\Installation\wamp\www\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 D:\Slava\Installation\wamp\www\yii\framework\web\CWebApplication.php(282): CController->run('ShowMyView')
+#13 D:\Slava\Installation\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('slava/ShowMyVie...')
+#14 D:\Slava\Installation\wamp\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#15 D:\Slava\Installation\wamp\www\yii\index.php(41): CApplication->run()
+#16 {main}
+REQUEST_URI=/yii/?r=slava/ShowMyView
+---
+2014/07/27 12:09:25 [error] [exception.CException] exception 'CException' with message 'Property "slavaController.v" is not defined.' in D:\Slava\Installation\wamp\www\yii\framework\base\CComponent.php:130
+Stack trace:
+#0 xdebug://debug-eval(1): CComponent->__get('v')
+#1 D:\Slava\Installation\wamp\www\yii\protected\controllers\SlavaController.php(80): slavaController::actionShowMyView()
+#2 D:\Slava\Installation\wamp\www\yii\framework\web\actions\CInlineAction.php(49): slavaController->actionShowMyView()
+#3 D:\Slava\Installation\wamp\www\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#4 D:\Slava\Installation\wamp\www\yii\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#5 D:\Slava\Installation\wamp\www\yii\framework\web\CController.php(291): CFilterChain->run()
+#6 D:\Slava\Installation\wamp\www\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 D:\Slava\Installation\wamp\www\yii\framework\web\CWebApplication.php(282): CController->run('ShowMyView')
+#8 D:\Slava\Installation\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('slava/ShowMyVie...')
+#9 D:\Slava\Installation\wamp\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#10 D:\Slava\Installation\wamp\www\yii\index.php(41): CApplication->run()
+#11 {main}
+REQUEST_URI=/yii/?r=slava/ShowMyView
+---
+2014/07/27 12:48:11 [error] [exception.CException] exception 'CException' with message 'Property "slavaController.v" is not defined.' in D:\Slava\Installation\wamp\www\yii\framework\base\CComponent.php:130
+Stack trace:
+#0 xdebug://debug-eval(1): CComponent->__get('v')
+#1 D:\Slava\Installation\wamp\www\yii\protected\controllers\SlavaController.php(80): slavaController::actionShowMyView()
+#2 D:\Slava\Installation\wamp\www\yii\framework\web\actions\CInlineAction.php(49): slavaController->actionShowMyView()
+#3 D:\Slava\Installation\wamp\www\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#4 D:\Slava\Installation\wamp\www\yii\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#5 D:\Slava\Installation\wamp\www\yii\framework\web\CController.php(291): CFilterChain->run()
+#6 D:\Slava\Installation\wamp\www\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 D:\Slava\Installation\wamp\www\yii\framework\web\CWebApplication.php(282): CController->run('showMyView')
+#8 D:\Slava\Installation\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('slava/showMyVie...')
+#9 D:\Slava\Installation\wamp\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#10 D:\Slava\Installation\wamp\www\yii\index.php(41): CApplication->run()
+#11 {main}
+REQUEST_URI=/yii/index.php?r=slava/showMyView
+---
+2014/07/27 12:51:15 [error] [exception.CException] exception 'CException' with message 'Property "slavaController.v" is not defined.' in D:\Slava\Installation\wamp\www\yii\framework\base\CComponent.php:130
+Stack trace:
+#0 xdebug://debug-eval(1): CComponent->__get('v')
+#1 D:\Slava\Installation\wamp\www\yii\protected\views\slava\myView.php(3): unknown()
+#2 D:\Slava\Installation\wamp\www\yii\framework\web\CBaseController.php(126): require('D:\Slava\Instal...')
+#3 D:\Slava\Installation\wamp\www\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('D:\Slava\Instal...', Array, true)
+#4 D:\Slava\Installation\wamp\www\yii\framework\web\CController.php(869): CBaseController->renderFile('D:\Slava\Instal...', Array, true)
+#5 D:\Slava\Installation\wamp\www\yii\framework\web\CController.php(782): CController->renderPartial('myView', Array, true)
+#6 D:\Slava\Installation\wamp\www\yii\protected\controllers\SlavaController.php(80): CController->render('myView', Array)
+#7 D:\Slava\Installation\wamp\www\yii\framework\web\actions\CInlineAction.php(49): slavaController->actionShowMyView()
+#8 D:\Slava\Installation\wamp\www\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#9 D:\Slava\Installation\wamp\www\yii\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#10 D:\Slava\Installation\wamp\www\yii\framework\web\CController.php(291): CFilterChain->run()
+#11 D:\Slava\Installation\wamp\www\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 D:\Slava\Installation\wamp\www\yii\framework\web\CWebApplication.php(282): CController->run('showMyView')
+#13 D:\Slava\Installation\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('slava/showMyVie...')
+#14 D:\Slava\Installation\wamp\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#15 D:\Slava\Installation\wamp\www\yii\index.php(41): CApplication->run()
+#16 {main}
+REQUEST_URI=/yii/index.php?r=slava/showMyView
+---
+2014/07/27 13:03:22 [error] [exception.CException] exception 'CException' with message 'Property "slavaController.v" is not defined.' in D:\Slava\Installation\wamp\www\yii\framework\base\CComponent.php:130
+Stack trace:
+#0 xdebug://debug-eval(1): CComponent->__get('v')
+#1 D:\Slava\Installation\wamp\www\yii\protected\controllers\SlavaController.php(81): slavaController::actionShowMyView()
+#2 D:\Slava\Installation\wamp\www\yii\framework\web\actions\CInlineAction.php(49): slavaController->actionShowMyView()
+#3 D:\Slava\Installation\wamp\www\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#4 D:\Slava\Installation\wamp\www\yii\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#5 D:\Slava\Installation\wamp\www\yii\framework\web\CController.php(291): CFilterChain->run()
+#6 D:\Slava\Installation\wamp\www\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 D:\Slava\Installation\wamp\www\yii\framework\web\CWebApplication.php(282): CController->run('showMyView')
+#8 D:\Slava\Installation\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('slava/showMyVie...')
+#9 D:\Slava\Installation\wamp\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#10 D:\Slava\Installation\wamp\www\yii\index.php(41): CApplication->run()
+#11 {main}
+REQUEST_URI=/yii/index.php?r=slava/showMyView
+---
+2014/07/27 13:06:30 [error] [exception.CException] exception 'CException' with message 'Property "slavaController.v" is not defined.' in D:\Slava\Installation\wamp\www\yii\framework\base\CComponent.php:130
+Stack trace:
+#0 xdebug://debug-eval(1): CComponent->__get('v')
+#1 D:\Slava\Installation\wamp\www\yii\protected\views\slava\myView.php(3): unknown()
+#2 D:\Slava\Installation\wamp\www\yii\framework\web\CBaseController.php(126): require('D:\Slava\Instal...')
+#3 D:\Slava\Installation\wamp\www\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('D:\Slava\Instal...', NULL, true)
+#4 D:\Slava\Installation\wamp\www\yii\framework\web\CController.php(869): CBaseController->renderFile('D:\Slava\Instal...', NULL, true)
+#5 D:\Slava\Installation\wamp\www\yii\framework\web\CController.php(782): CController->renderPartial('myView', NULL, true)
+#6 D:\Slava\Installation\wamp\www\yii\protected\controllers\SlavaController.php(81): CController->render('myView')
+#7 D:\Slava\Installation\wamp\www\yii\framework\web\actions\CInlineAction.php(49): slavaController->actionShowMyView()
+#8 D:\Slava\Installation\wamp\www\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#9 D:\Slava\Installation\wamp\www\yii\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#10 D:\Slava\Installation\wamp\www\yii\framework\web\CController.php(291): CFilterChain->run()
+#11 D:\Slava\Installation\wamp\www\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 D:\Slava\Installation\wamp\www\yii\framework\web\CWebApplication.php(282): CController->run('showMyView')
+#13 D:\Slava\Installation\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('slava/showMyVie...')
+#14 D:\Slava\Installation\wamp\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#15 D:\Slava\Installation\wamp\www\yii\index.php(41): CApplication->run()
+#16 {main}
+REQUEST_URI=/yii/index.php?r=slava/showMyView
+---
+2014/07/27 13:07:45 [error] [exception.CException] exception 'CException' with message 'Property "slavaController.v" is not defined.' in D:\Slava\Installation\wamp\www\yii\framework\base\CComponent.php:130
+Stack trace:
+#0 xdebug://debug-eval(1): CComponent->__get('v')
+#1 D:\Slava\Installation\wamp\www\yii\protected\controllers\SlavaController.php(80): slavaController::actionShowMyView()
+#2 D:\Slava\Installation\wamp\www\yii\framework\web\actions\CInlineAction.php(49): slavaController->actionShowMyView()
+#3 D:\Slava\Installation\wamp\www\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#4 D:\Slava\Installation\wamp\www\yii\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#5 D:\Slava\Installation\wamp\www\yii\framework\web\CController.php(291): CFilterChain->run()
+#6 D:\Slava\Installation\wamp\www\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 D:\Slava\Installation\wamp\www\yii\framework\web\CWebApplication.php(282): CController->run('showMyView')
+#8 D:\Slava\Installation\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('slava/showMyVie...')
+#9 D:\Slava\Installation\wamp\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#10 D:\Slava\Installation\wamp\www\yii\index.php(41): CApplication->run()
+#11 {main}
+REQUEST_URI=/yii/index.php?r=slava/showMyView
+---
+2014/07/27 13:09:24 [error] [exception.CException] exception 'CException' with message 'slavaController cannot find the requested view "myView".' in D:\Slava\Installation\wamp\www\yii\framework\web\CController.php:878
+Stack trace:
+#0 D:\Slava\Installation\wamp\www\yii\framework\web\CController.php(782): CController->renderPartial('myView', NULL, true)
+#1 D:\Slava\Installation\wamp\www\yii\protected\controllers\SlavaController.php(88): CController->render('myView')
+#2 D:\Slava\Installation\wamp\www\yii\framework\web\actions\CInlineAction.php(49): slavaController->actionShowMyView()
+#3 D:\Slava\Installation\wamp\www\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#4 D:\Slava\Installation\wamp\www\yii\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#5 D:\Slava\Installation\wamp\www\yii\framework\web\CController.php(291): CFilterChain->run()
+#6 D:\Slava\Installation\wamp\www\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 D:\Slava\Installation\wamp\www\yii\framework\web\CWebApplication.php(282): CController->run('showMyView')
+#8 D:\Slava\Installation\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('slava/showMyVie...')
+#9 D:\Slava\Installation\wamp\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#10 D:\Slava\Installation\wamp\www\yii\index.php(41): CApplication->run()
+#11 {main}
+REQUEST_URI=/yii/index.php?r=slava/showMyView
+---
+2014/07/27 13:10:00 [error] [exception.CException] exception 'CException' with message 'Property "slavaController.v" is not defined.' in D:\Slava\Installation\wamp\www\yii\framework\base\CComponent.php:130
+Stack trace:
+#0 xdebug://debug-eval(1): CComponent->__get('v')
+#1 D:\Slava\Installation\wamp\www\yii\protected\controllers\SlavaController.php(85): slavaController::actionShowMyView()
+#2 D:\Slava\Installation\wamp\www\yii\framework\web\actions\CInlineAction.php(49): slavaController->actionShowMyView()
+#3 D:\Slava\Installation\wamp\www\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#4 D:\Slava\Installation\wamp\www\yii\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#5 D:\Slava\Installation\wamp\www\yii\framework\web\CController.php(291): CFilterChain->run()
+#6 D:\Slava\Installation\wamp\www\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 D:\Slava\Installation\wamp\www\yii\framework\web\CWebApplication.php(282): CController->run('showMyView')
+#8 D:\Slava\Installation\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('slava/showMyVie...')
+#9 D:\Slava\Installation\wamp\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#10 D:\Slava\Installation\wamp\www\yii\index.php(41): CApplication->run()
+#11 {main}
+REQUEST_URI=/yii/index.php?r=slava/showMyView
+---
+2014/07/27 14:08:16 [error] [exception.CException] exception 'CException' with message 'Property "slavaController.v" is not defined.' in D:\Slava\Installation\wamp\www\yii\framework\base\CComponent.php:130
+Stack trace:
+#0 xdebug://debug-eval(1): CComponent->__get('v')
+#1 D:\Slava\Installation\wamp\www\yii\protected\controllers\SlavaController.php(87): slavaController::actionShowMyView()
+#2 D:\Slava\Installation\wamp\www\yii\framework\web\actions\CInlineAction.php(49): slavaController->actionShowMyView()
+#3 D:\Slava\Installation\wamp\www\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#4 D:\Slava\Installation\wamp\www\yii\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#5 D:\Slava\Installation\wamp\www\yii\framework\web\CController.php(291): CFilterChain->run()
+#6 D:\Slava\Installation\wamp\www\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 D:\Slava\Installation\wamp\www\yii\framework\web\CWebApplication.php(282): CController->run('ShowMyView')
+#8 D:\Slava\Installation\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('slava/ShowMyVie...')
+#9 D:\Slava\Installation\wamp\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#10 D:\Slava\Installation\wamp\www\yii\index.php(41): CApplication->run()
+#11 {main}
+REQUEST_URI=/yii/index.php?r=slava/ShowMyView
+---
+2014/07/28 09:57:53 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "event".' in D:\Slava\Installation\wamp\www\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\Slava\Installation\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('event')
+#1 D:\Slava\Installation\wamp\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 D:\Slava\Installation\wamp\www\yii\index.php(41): CApplication->run()
+#3 {main}
+REQUEST_URI=/yii/index.php?r=event
+---
+2014/07/28 09:58:32 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "Event".' in D:\Slava\Installation\wamp\www\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\Slava\Installation\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('Event')
+#1 D:\Slava\Installation\wamp\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 D:\Slava\Installation\wamp\www\yii\index.php(41): CApplication->run()
+#3 {main}
+REQUEST_URI=/yii/index.php?r=Event
+---
+2014/07/28 09:59:19 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "Event".' in D:\Slava\Installation\wamp\www\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\Slava\Installation\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('Event')
+#1 D:\Slava\Installation\wamp\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 D:\Slava\Installation\wamp\www\yii\index.php(41): CApplication->run()
+#3 {main}
+REQUEST_URI=/yii/index.php?r=Event
+---
+2014/07/28 09:59:22 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "Event".' in D:\Slava\Installation\wamp\www\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\Slava\Installation\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('Event')
+#1 D:\Slava\Installation\wamp\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 D:\Slava\Installation\wamp\www\yii\index.php(41): CApplication->run()
+#3 {main}
+REQUEST_URI=/yii/index.php?r=Event
+---
+2014/07/28 09:59:53 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "event".' in D:\Slava\Installation\wamp\www\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\Slava\Installation\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('event')
+#1 D:\Slava\Installation\wamp\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 D:\Slava\Installation\wamp\www\yii\index.php(41): CApplication->run()
+#3 {main}
+REQUEST_URI=/yii/index.php?r=event
+---
+2014/07/28 10:00:01 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "event/index".' in D:\Slava\Installation\wamp\www\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\Slava\Installation\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('event/index')
+#1 D:\Slava\Installation\wamp\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 D:\Slava\Installation\wamp\www\yii\index.php(41): CApplication->run()
+#3 {main}
+REQUEST_URI=/yii/index.php?r=event/index
+---
+2014/07/28 10:00:07 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "event/Index".' in D:\Slava\Installation\wamp\www\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\Slava\Installation\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('event/Index')
+#1 D:\Slava\Installation\wamp\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 D:\Slava\Installation\wamp\www\yii\index.php(41): CApplication->run()
+#3 {main}
+REQUEST_URI=/yii/index.php?r=event/Index
+---
+2014/07/28 10:00:38 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "event".' in D:\Slava\Installation\wamp\www\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\Slava\Installation\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('event')
+#1 D:\Slava\Installation\wamp\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 D:\Slava\Installation\wamp\www\yii\index.php(41): CApplication->run()
+#3 {main}
+REQUEST_URI=/yii/index.php?r=event
+---
+2014/07/28 10:01:05 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "event".' in D:\Slava\Installation\wamp\www\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\Slava\Installation\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('event')
+#1 D:\Slava\Installation\wamp\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 D:\Slava\Installation\wamp\www\yii\index.php(41): CApplication->run()
+#3 {main}
+REQUEST_URI=/yii/index.php?r=event
+---
+2014/07/28 10:01:07 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "event".' in D:\Slava\Installation\wamp\www\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\Slava\Installation\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('event')
+#1 D:\Slava\Installation\wamp\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 D:\Slava\Installation\wamp\www\yii\index.php(41): CApplication->run()
+#3 {main}
+REQUEST_URI=/yii/index.php?r=event
+---
+2014/07/28 10:01:08 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "event".' in D:\Slava\Installation\wamp\www\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\Slava\Installation\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('event')
+#1 D:\Slava\Installation\wamp\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 D:\Slava\Installation\wamp\www\yii\index.php(41): CApplication->run()
+#3 {main}
+REQUEST_URI=/yii/index.php?r=event
+---
+2014/07/28 10:01:09 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "event".' in D:\Slava\Installation\wamp\www\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\Slava\Installation\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('event')
+#1 D:\Slava\Installation\wamp\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 D:\Slava\Installation\wamp\www\yii\index.php(41): CApplication->run()
+#3 {main}
+REQUEST_URI=/yii/index.php?r=event
+---
+2014/07/28 10:01:16 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "Event".' in D:\Slava\Installation\wamp\www\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\Slava\Installation\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('Event')
+#1 D:\Slava\Installation\wamp\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 D:\Slava\Installation\wamp\www\yii\index.php(41): CApplication->run()
+#3 {main}
+REQUEST_URI=/yii/index.php?r=Event
+---
+2014/07/28 10:01:29 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "Event".' in D:\Slava\Installation\wamp\www\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\Slava\Installation\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('Event')
+#1 D:\Slava\Installation\wamp\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 D:\Slava\Installation\wamp\www\yii\index.php(41): CApplication->run()
+#3 {main}
+REQUEST_URI=/yii/index.php?r=Event
+---
+2014/07/28 10:04:14 [error] [exception.CException] exception 'CException' with message 'Property "eventsController.v" is not defined.' in D:\Slava\Installation\wamp\www\yii\framework\base\CComponent.php:130
+Stack trace:
+#0 xdebug://debug-eval(1): CComponent->__get('v')
+#1 D:\Slava\Installation\wamp\www\yii\protected\controllers\EventsController.php(20): eventsController::actionIndex()
+#2 D:\Slava\Installation\wamp\www\yii\framework\web\actions\CInlineAction.php(49): eventsController->actionIndex()
+#3 D:\Slava\Installation\wamp\www\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#4 D:\Slava\Installation\wamp\www\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#5 D:\Slava\Installation\wamp\www\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 D:\Slava\Installation\wamp\www\yii\framework\web\CWebApplication.php(282): CController->run('')
+#7 D:\Slava\Installation\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('events')
+#8 D:\Slava\Installation\wamp\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#9 D:\Slava\Installation\wamp\www\yii\index.php(41): CApplication->run()
+#10 {main}
+REQUEST_URI=/yii/index.php?r=events
+---
+2014/07/28 10:56:28 [error] [exception.CException] exception 'CException' with message 'Property "eventsController.v" is not defined.' in D:\Slava\Installation\wamp\www\yii\framework\base\CComponent.php:130
+Stack trace:
+#0 xdebug://debug-eval(1): CComponent->__get('v')
+#1 D:\Slava\Installation\wamp\www\yii\protected\controllers\EventsController.php(21): eventsController::actionIndex()
+#2 D:\Slava\Installation\wamp\www\yii\framework\web\actions\CInlineAction.php(49): eventsController->actionIndex()
+#3 D:\Slava\Installation\wamp\www\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#4 D:\Slava\Installation\wamp\www\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#5 D:\Slava\Installation\wamp\www\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 D:\Slava\Installation\wamp\www\yii\framework\web\CWebApplication.php(282): CController->run('')
+#7 D:\Slava\Installation\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('events')
+#8 D:\Slava\Installation\wamp\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#9 D:\Slava\Installation\wamp\www\yii\index.php(41): CApplication->run()
+#10 {main}
+REQUEST_URI=/yii/index.php?r=events
+---
+2014/07/28 10:56:39 [error] [exception.CException] exception 'CException' with message 'Property "eventsController.v" is not defined.' in D:\Slava\Installation\wamp\www\yii\framework\base\CComponent.php:130
+Stack trace:
+#0 xdebug://debug-eval(1): CComponent->__get('v')
+#1 D:\Slava\Installation\wamp\www\yii\protected\controllers\EventsController.php(21): eventsController::actionIndex()
+#2 D:\Slava\Installation\wamp\www\yii\framework\web\actions\CInlineAction.php(49): eventsController->actionIndex()
+#3 D:\Slava\Installation\wamp\www\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#4 D:\Slava\Installation\wamp\www\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#5 D:\Slava\Installation\wamp\www\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 D:\Slava\Installation\wamp\www\yii\framework\web\CWebApplication.php(282): CController->run('')
+#7 D:\Slava\Installation\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('events')
+#8 D:\Slava\Installation\wamp\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#9 D:\Slava\Installation\wamp\www\yii\index.php(41): CApplication->run()
+#10 {main}
+REQUEST_URI=/yii/index.php?r=events
+---
+2014/07/28 11:14:18 [error] [exception.CException] exception 'CException' with message 'Property "slavaController.v" is not defined.' in D:\Slava\Installation\wamp\www\yii\framework\base\CComponent.php:130
+Stack trace:
+#0 xdebug://debug-eval(1): CComponent->__get('v')
+#1 D:\Slava\Installation\wamp\www\yii\protected\controllers\SlavaController.php(87): slavaController::actionShowMyView()
+#2 D:\Slava\Installation\wamp\www\yii\framework\web\actions\CInlineAction.php(49): slavaController->actionShowMyView()
+#3 D:\Slava\Installation\wamp\www\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#4 D:\Slava\Installation\wamp\www\yii\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#5 D:\Slava\Installation\wamp\www\yii\framework\web\CController.php(291): CFilterChain->run()
+#6 D:\Slava\Installation\wamp\www\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 D:\Slava\Installation\wamp\www\yii\framework\web\CWebApplication.php(282): CController->run('ShowMyView')
+#8 D:\Slava\Installation\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('slava/ShowMyVie...')
+#9 D:\Slava\Installation\wamp\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#10 D:\Slava\Installation\wamp\www\yii\index.php(41): CApplication->run()
+#11 {main}
+REQUEST_URI=/yii/index.php?r=slava/ShowMyView
+---
+2014/07/29 06:54:22 [error] [exception.CException] exception 'CException' with message 'Property "eventsController.v" is not defined.' in D:\Slava\Installation\wamp\www\yii\framework\base\CComponent.php:130
+Stack trace:
+#0 xdebug://debug-eval(1): CComponent->__get('v')
+#1 D:\Slava\Installation\wamp\www\yii\protected\controllers\EventsController.php(40): eventsController::startEventHandler()
+#2 D:\Slava\Installation\wamp\www\yii\framework\base\CComponent.php(561): eventsController->startEventHandler(Object(CEvent))
+#3 D:\Slava\Installation\wamp\www\yii\protected\controllers\EventsController.php(35): CComponent->raiseEvent('onStart', Object(CEvent))
+#4 D:\Slava\Installation\wamp\www\yii\protected\controllers\EventsController.php(29): eventsController->onStart(Object(CEvent))
+#5 D:\Slava\Installation\wamp\www\yii\framework\web\actions\CInlineAction.php(49): eventsController->actionIndex()
+#6 D:\Slava\Installation\wamp\www\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#7 D:\Slava\Installation\wamp\www\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#8 D:\Slava\Installation\wamp\www\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#9 D:\Slava\Installation\wamp\www\yii\framework\web\CWebApplication.php(282): CController->run('')
+#10 D:\Slava\Installation\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('events')
+#11 D:\Slava\Installation\wamp\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#12 D:\Slava\Installation\wamp\www\yii\index.php(41): CApplication->run()
+#13 {main}
+REQUEST_URI=/yii/index.php?r=events
+---
+2014/07/29 06:56:26 [error] [exception.CException] exception 'CException' with message 'Property "eventsController.v" is not defined.' in D:\Slava\Installation\wamp\www\yii\framework\base\CComponent.php:130
+Stack trace:
+#0 xdebug://debug-eval(1): CComponent->__get('v')
+#1 D:\Slava\Installation\wamp\www\yii\protected\controllers\EventsController.php(40): eventsController::startEventHandler()
+#2 D:\Slava\Installation\wamp\www\yii\framework\base\CComponent.php(561): eventsController->startEventHandler(Object(CEvent))
+#3 D:\Slava\Installation\wamp\www\yii\protected\controllers\EventsController.php(35): CComponent->raiseEvent('onStart', Object(CEvent))
+#4 D:\Slava\Installation\wamp\www\yii\protected\controllers\EventsController.php(29): eventsController->onStart(Object(CEvent))
+#5 D:\Slava\Installation\wamp\www\yii\framework\web\actions\CInlineAction.php(49): eventsController->actionIndex()
+#6 D:\Slava\Installation\wamp\www\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#7 D:\Slava\Installation\wamp\www\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#8 D:\Slava\Installation\wamp\www\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#9 D:\Slava\Installation\wamp\www\yii\framework\web\CWebApplication.php(282): CController->run('')
+#10 D:\Slava\Installation\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('events')
+#11 D:\Slava\Installation\wamp\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#12 D:\Slava\Installation\wamp\www\yii\index.php(41): CApplication->run()
+#13 {main}
+REQUEST_URI=/yii/index.php?r=events
+---
+2014/07/29 07:27:06 [error] [exception.CException] exception 'CException' with message 'Property "eventsController.v" is not defined.' in D:\Slava\Installation\wamp\www\yii\framework\base\CComponent.php:130
+Stack trace:
+#0 xdebug://debug-eval(1): CComponent->__get('v')
+#1 D:\Slava\Installation\wamp\www\yii\protected\controllers\EventsController.php(40): eventsController::startEventHandler()
+#2 D:\Slava\Installation\wamp\www\yii\framework\base\CComponent.php(561): eventsController->startEventHandler(Object(CEvent))
+#3 D:\Slava\Installation\wamp\www\yii\protected\controllers\EventsController.php(35): CComponent->raiseEvent('onStart', Object(CEvent))
+#4 D:\Slava\Installation\wamp\www\yii\protected\controllers\EventsController.php(29): eventsController->onStart(Object(CEvent))
+#5 D:\Slava\Installation\wamp\www\yii\framework\web\actions\CInlineAction.php(49): eventsController->actionIndex()
+#6 D:\Slava\Installation\wamp\www\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#7 D:\Slava\Installation\wamp\www\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#8 D:\Slava\Installation\wamp\www\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#9 D:\Slava\Installation\wamp\www\yii\framework\web\CWebApplication.php(282): CController->run('')
+#10 D:\Slava\Installation\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('events')
+#11 D:\Slava\Installation\wamp\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#12 D:\Slava\Installation\wamp\www\yii\index.php(41): CApplication->run()
+#13 {main}
+REQUEST_URI=/yii/index.php?r=events
+---
+2014/07/29 08:40:30 [error] [exception.CException] exception 'CException' with message 'Property "eventsController.v" is not defined.' in D:\Slava\Installation\wamp\www\yii\framework\base\CComponent.php:130
+Stack trace:
+#0 xdebug://debug-eval(1): CComponent->__get('v')
+#1 D:\Slava\Installation\wamp\www\yii\protected\controllers\EventsController.php(47): eventsController::startEventHandler()
+#2 D:\Slava\Installation\wamp\www\yii\framework\base\CComponent.php(561): eventsController->startEventHandler(Object(CEvent))
+#3 D:\Slava\Installation\wamp\www\yii\protected\controllers\EventsController.php(42): CComponent->raiseEvent('onStart', Object(CEvent))
+#4 D:\Slava\Installation\wamp\www\yii\protected\controllers\EventsController.php(34): eventsController->onStart(Object(CEvent))
+#5 D:\Slava\Installation\wamp\www\yii\framework\web\actions\CInlineAction.php(49): eventsController->actionIndex()
+#6 D:\Slava\Installation\wamp\www\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#7 D:\Slava\Installation\wamp\www\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#8 D:\Slava\Installation\wamp\www\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#9 D:\Slava\Installation\wamp\www\yii\framework\web\CWebApplication.php(282): CController->run('')
+#10 D:\Slava\Installation\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('events')
+#11 D:\Slava\Installation\wamp\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#12 D:\Slava\Installation\wamp\www\yii\index.php(41): CApplication->run()
+#13 {main}
+REQUEST_URI=/yii/index.php?r=events
+---
+2014/07/29 08:44:17 [error] [exception.CException] exception 'CException' with message 'Property "eventsController.v" is not defined.' in D:\Slava\Installation\wamp\www\yii\framework\base\CComponent.php:130
+Stack trace:
+#0 xdebug://debug-eval(1): CComponent->__get('v')
+#1 D:\Slava\Installation\wamp\www\yii\protected\controllers\EventsController.php(47): eventsController::startEventHandler()
+#2 D:\Slava\Installation\wamp\www\yii\framework\base\CComponent.php(561): eventsController->startEventHandler(Object(CEvent))
+#3 D:\Slava\Installation\wamp\www\yii\protected\controllers\EventsController.php(42): CComponent->raiseEvent('onStart', Object(CEvent))
+#4 D:\Slava\Installation\wamp\www\yii\protected\controllers\EventsController.php(34): eventsController->onStart(Object(CEvent))
+#5 D:\Slava\Installation\wamp\www\yii\framework\web\actions\CInlineAction.php(49): eventsController->actionIndex()
+#6 D:\Slava\Installation\wamp\www\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#7 D:\Slava\Installation\wamp\www\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#8 D:\Slava\Installation\wamp\www\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#9 D:\Slava\Installation\wamp\www\yii\framework\web\CWebApplication.php(282): CController->run('')
+#10 D:\Slava\Installation\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('events')
+#11 D:\Slava\Installation\wamp\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#12 D:\Slava\Installation\wamp\www\yii\index.php(41): CApplication->run()
+#13 {main}
+REQUEST_URI=/yii/index.php?r=events
+---
+2014/07/29 08:52:14 [error] [exception.CException] exception 'CException' with message 'Property "eventsController.v" is not defined.' in D:\Slava\Installation\wamp\www\yii\framework\base\CComponent.php:130
+Stack trace:
+#0 xdebug://debug-eval(1): CComponent->__get('v')
+#1 D:\Slava\Installation\wamp\www\yii\protected\controllers\EventsController.php(47): eventsController::startEventHandler()
+#2 D:\Slava\Installation\wamp\www\yii\framework\base\CComponent.php(561): eventsController->startEventHandler(Object(CEvent))
+#3 D:\Slava\Installation\wamp\www\yii\protected\controllers\EventsController.php(42): CComponent->raiseEvent('onStart', Object(CEvent))
+#4 D:\Slava\Installation\wamp\www\yii\protected\controllers\EventsController.php(34): eventsController->onStart(Object(CEvent))
+#5 D:\Slava\Installation\wamp\www\yii\framework\web\actions\CInlineAction.php(49): eventsController->actionIndex()
+#6 D:\Slava\Installation\wamp\www\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#7 D:\Slava\Installation\wamp\www\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#8 D:\Slava\Installation\wamp\www\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#9 D:\Slava\Installation\wamp\www\yii\framework\web\CWebApplication.php(282): CController->run('')
+#10 D:\Slava\Installation\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('events')
+#11 D:\Slava\Installation\wamp\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#12 D:\Slava\Installation\wamp\www\yii\index.php(41): CApplication->run()
+#13 {main}
+REQUEST_URI=/yii/index.php?r=events
+---
+2014/07/29 09:06:10 [error] [exception.CException] exception 'CException' with message 'Property "eventsController.v" is not defined.' in D:\Slava\Installation\wamp\www\yii\framework\base\CComponent.php:130
+Stack trace:
+#0 xdebug://debug-eval(1): CComponent->__get('v')
+#1 D:\Slava\Installation\wamp\www\yii\protected\controllers\EventsController.php(48): eventsController::startEventHandler()
+#2 D:\Slava\Installation\wamp\www\yii\framework\base\CComponent.php(561): eventsController->startEventHandler(Object(CEvent))
+#3 D:\Slava\Installation\wamp\www\yii\protected\controllers\EventsController.php(43): CComponent->raiseEvent('onStart', Object(CEvent))
+#4 D:\Slava\Installation\wamp\www\yii\protected\controllers\EventsController.php(35): eventsController->onStart(Object(CEvent))
+#5 D:\Slava\Installation\wamp\www\yii\framework\web\actions\CInlineAction.php(49): eventsController->actionIndex()
+#6 D:\Slava\Installation\wamp\www\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#7 D:\Slava\Installation\wamp\www\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#8 D:\Slava\Installation\wamp\www\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#9 D:\Slava\Installation\wamp\www\yii\framework\web\CWebApplication.php(282): CController->run('')
+#10 D:\Slava\Installation\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('events')
+#11 D:\Slava\Installation\wamp\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#12 D:\Slava\Installation\wamp\www\yii\index.php(41): CApplication->run()
+#13 {main}
+REQUEST_URI=/yii/index.php?r=events
+---
+2014/07/29 09:09:56 [error] [exception.CException] exception 'CException' with message 'Property "eventsController.v" is not defined.' in D:\Slava\Installation\wamp\www\yii\framework\base\CComponent.php:130
+Stack trace:
+#0 xdebug://debug-eval(1): CComponent->__get('v')
+#1 D:\Slava\Installation\wamp\www\yii\protected\controllers\EventsController.php(37): eventsController::actionIndex()
+#2 D:\Slava\Installation\wamp\www\yii\framework\web\actions\CInlineAction.php(49): eventsController->actionIndex()
+#3 D:\Slava\Installation\wamp\www\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#4 D:\Slava\Installation\wamp\www\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#5 D:\Slava\Installation\wamp\www\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 D:\Slava\Installation\wamp\www\yii\framework\web\CWebApplication.php(282): CController->run('')
+#7 D:\Slava\Installation\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('events')
+#8 D:\Slava\Installation\wamp\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#9 D:\Slava\Installation\wamp\www\yii\index.php(41): CApplication->run()
+#10 {main}
+REQUEST_URI=/yii/index.php?r=events
+---
+2014/07/29 09:10:20 [error] [exception.CException] exception 'CException' with message 'Property "eventsController.v" is not defined.' in D:\Slava\Installation\wamp\www\yii\framework\base\CComponent.php:130
+Stack trace:
+#0 xdebug://debug-eval(1): CComponent->__get('v')
+#1 D:\Slava\Installation\wamp\www\yii\protected\controllers\EventsController.php(37): eventsController::actionIndex()
+#2 D:\Slava\Installation\wamp\www\yii\framework\web\actions\CInlineAction.php(49): eventsController->actionIndex()
+#3 D:\Slava\Installation\wamp\www\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#4 D:\Slava\Installation\wamp\www\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#5 D:\Slava\Installation\wamp\www\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 D:\Slava\Installation\wamp\www\yii\framework\web\CWebApplication.php(282): CController->run('')
+#7 D:\Slava\Installation\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('events')
+#8 D:\Slava\Installation\wamp\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#9 D:\Slava\Installation\wamp\www\yii\index.php(41): CApplication->run()
+#10 {main}
+REQUEST_URI=/yii/index.php?r=events
+---
+2014/07/29 09:40:13 [error] [php] include(EventsHandler.php): failed to open stream: No such file or directory (D:\Slava\Installation\wamp\www\yii\framework\YiiBase.php:427)
+Stack trace:
+#0 D:\Slava\Installation\wamp\www\yii\protected\controllers\EventsController.php(16): spl_autoload_call()
+#1 D:\Slava\Installation\wamp\www\yii\framework\web\CWebApplication.php(359): eventsController->eventsController()
+#2 D:\Slava\Installation\wamp\www\yii\framework\web\CWebApplication.php(276): CWebApplication->createController()
+#3 D:\Slava\Installation\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#4 D:\Slava\Installation\wamp\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#5 D:\Slava\Installation\wamp\www\yii\index.php(41): CWebApplication->run()
+REQUEST_URI=/yii/index.php?r=events
+in D:\Slava\Installation\wamp\www\yii\protected\controllers\EventsController.php (16)
+in D:\Slava\Installation\wamp\www\yii\index.php (41)
+2014/07/29 09:44:31 [error] [php] Missing argument 2 for CComponent::detachEventHandler(), called in D:\Slava\Installation\wamp\www\yii\protected\controllers\EventsController.php on line 20 and defined (D:\Slava\Installation\wamp\www\yii\framework\base\CComponent.php:527)
+Stack trace:
+#0 D:\Slava\Installation\wamp\www\yii\framework\web\CWebApplication.php(276): CWebApplication->createController()
+#1 D:\Slava\Installation\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#2 D:\Slava\Installation\wamp\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#3 D:\Slava\Installation\wamp\www\yii\index.php(41): CWebApplication->run()
+REQUEST_URI=/yii/index.php?r=events
+in D:\Slava\Installation\wamp\www\yii\protected\controllers\EventsController.php (20)
+in D:\Slava\Installation\wamp\www\yii\index.php (41)
